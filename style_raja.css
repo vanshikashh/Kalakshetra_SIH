@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #800000;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: black;
+}
+  
+  .navbar a:hover, .navbar a.active {
+    color: rgb(213, 182, 142);
+    background-color: rgba(72, 43, 10, 0.325);
+    border-radius: 5px;
+  }
+
+.slideshow-container {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 20s linear infinite;
+    margin-top: 80px; /* Keep space below the navbar */
+}
+
+/* Slideshow Keyframes */
+@keyframes slideshow {
+    0% { background-image: url('https://www.andbeyond.com/wp-content/uploads/sites/5/rajasthan-thar-desert-jaiselmer.jpg'); }
+    25% { background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/16/ce/9f/e2/jodhpur-is-a-city-founded.jpg'); }
+    50% { background-image: url('../../static/extra/fort.jpg'); }
+    75% { background-image: url('https://www.holidify.com/images/bgImages/JODHPUR.jpg'); }
+    100% { background-image: url('https://www.andbeyond.com/wp-content/uploads/sites/5/rajasthan-thar-desert-jaiselmer.jpg'); }
+}
+
+/* Slideshow Content */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #911108;
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+    position: relative; /* Keeps footer at the bottom */
+    width: 100%;
+    margin-top: 20px; /* Space between content and footer */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer .social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer .social-icons li {
+    margin: 0 10px;
+}
+
+.footer .social-icons li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .social-icons li a:hover {
+    text-decoration: underline;
+}
+
+/* Facts Section Styling */
+.facts-section {
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.facts-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #800000;
+}
+
+.facts-container {
+    /* height: 1000px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fact-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #ebe2b7;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.fact-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.fact-box p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Hover effect: slight expansion */
+.fact-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Popup styling */
+.fact-box.active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+    width: 80%;
+    height: auto;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    padding: 30px;
+}
+
+.fact-box.active img {
+    height: auto;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9998;
+    display: none;
+}
+
+.overlay.show {
+    display: block;
+}
+
+/* Monuments Section */
+
+
+.monuments-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color:  #800000;
+    position: relative;
+    z-index: 1; /* Keep heading above other elements */
+}
+
+
+.monuments-section {
+    margin-top: 10px;
+    text-align: center;
+    margin: 50px 0;
+    background-size: cover;
+    background-position: center;
+    /* padding: 40px 0; Padding around the section */
+    position: relative;
+    z-index: 0;
+}
+
+.monument-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Ensure the boxes are centered */
+    gap: 20px; /* Add spacing between boxes */
+    max-width: 1200px; /* Limit the width of the container */
+    margin: 0 auto;
+}
+
+.monument-box {
+    width: 30%; /* Each box takes up 30% of the container's width */
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0; /* Initially invisible */
+    transform: translateY(30px); /* Initially moved down */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: #ebe2b7;
+}
+
+/* Ensure images fit well */
+.monument-box img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    /* padding: 15px; */
+    border-bottom: 1px solid #ddd; /* Add border to separate image from text */
+}
+
+/* Text styling for the monument box */
+.monument-box h2{
+    padding: 25px;
+}
+.monument-box p {
+    padding: 25px;
+    color: #333;
+    max-height: 3em; /* Show only first few lines */
+    overflow: hidden; /* Hide the rest of the text */
+    text-overflow: ellipsis;
+    transition: max-height 0.3s ease; /* Smooth expansion */
+}
+
+/* Hover effect */
+.monument-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/* Overlay for pop-up effect */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay.show {
+    display: flex;
+}
+
+/* Pop-up active state */
+.monument-box.active {
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    z-index: 101;
+    background-color: #ebe2b7;
+    transform: scale(1.1);
+    overflow: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* When the box is visible */
+.monument-box.show {
+    transform: translateY(0); /* Reset the position */
+    opacity: 1; /* Fully visible */
+}
+
+/* Full description visible when in active state */
+.monument-box.active p {
+    max-height: none; /* Remove height limit */
+    overflow: visible;
+}
+
+/* Food Section Styling */
+.food-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.food-heading {
+    font-size: 2em;
+    font-weight: bold;
+    color: #800000;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.food-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.food-box {
+    width: 15%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(100px); /* Initially move downwards */
+    transition: transform 1s ease, opacity 1s ease; /* Slow transition */
+    cursor: pointer;
+    background-color: #ebe2b7;
+}
+
+/* Ensure images fit well */
+.food-box img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+/* Text styling for the food box */
+.food-box h2 {
+    padding: 10px;
+}
+
+/* Hover effect for Food boxes */
+.food-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/* Show the Food box when in viewport */
+.food-box.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.arts-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.arts-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 25px; /* Increased space between the slideshow and heading */
+    color: #800000;
+    text-align: left; /* Align text to the left */
+    width: 30%; /* Heading takes up 30% of the width */
+}
+
+.arts-slideshow-container {
+    position: relative;
+    max-width: 60%; /* Slideshow takes up 60% of the width */
+    height: 450px; /* Increased height for the slideshow */
+    overflow: hidden;
+    margin-left: 15px;
+    border-radius: 10px;
+    border-bottom: 10px;
+}
+
+.art-slide {
+    display: none;
+}
+
+.art-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensure the image fits within the container without being cropped */
+}
+
+/* Fade effect */
+.fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+}
+
+.dance-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.dance-heading {
+    font-size: 2em;
+    font-weight: bold;
+    color: #800000;
+    margin-bottom: 20px;
+}
+
+.dance-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.dance-box {
+    width: 18%; /* Adjust width as needed */
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(100px); /* Initially move downwards */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Transition effect */
+    cursor: pointer;
+    background-color: #ebe2b7;
+}
+
+/* Ensure images fit well */
+.dance-box img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.dance-box h3{
+    padding: 10px;
+}
+/* Show the dance box when in viewport */
+.dance-box.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Hover effect for Dance boxes */
+.dance-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.folklore-section {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    margin: 40px 0; /* Adjust margin as needed */
+}
+/* Navbar */
+nav {
+    background-color: #800000;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 14px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: rgb(213, 182, 142);
+  background-color: rgba(72, 43, 10, 0.325);
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.icons a:hover {
+    color: #F2C94C;
+}
+
+.folklore-heading {
+    flex: 1; /* Take up 1 part of the space */
+    font-size: 4rem; /* Adjust heading size */
+    margin-right: 10px; /* Space between heading and video */
+    color: #800000;
+    padding: 60px;
+    
+}
+
+.video-container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none; /* No background */
+}
+
+.video-container video {
+    width: 300px;  /* Set this to your desired square size */
+    height: 300px; /* Square layout */
+    object-fit: cover; /* Ensures the video fills the square without stretching */
+    border: none;  /* Removes any borders */
+}

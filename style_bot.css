@@ -1,0 +1,498 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #800000
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Navbar */
+.navbar {
+  background-color: #800000;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 14px 0;
+}
+
+.facts-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.navbar a:hover, .navbar a.active {
+  color: rgb(213, 182, 142);
+  background-color: rgba(72, 43, 10, 0.325);
+  border-radius: 5px;
+}
+
+.explore-link {
+  display: inline-block;
+  background-color: #661f12; /* A bright color, you can change it */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-link:hover {
+  background-color: #eb6332; /* Darker shade on hover */
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: black;
+}
+
+.logo {
+  max-width: 350px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 20px auto; /* Center horizontally with margin */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
+}
+
+/* Adding effects */
+.logo:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+  filter: brightness(1.2); /* Brighten the image on hover */
+}
+
+.map-explore-container {
+  text-align: center;
+  background-color: #f0f0f0; /* Light background for contrast */
+  padding: 20px; /* Padding around the text */
+  border-radius: 10px; /* Rounded corners for modern look */
+  margin: 20px auto; /* Center the container with some margin */
+  max-width: 600px; /* Limit the width of the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.map-explore-container p {
+  color: #666; /* Lighter text for the paragraph */
+  font-size: 18px; /* Comfortable font size for reading */
+  margin: 0; /* Remove default margin */
+}
+
+/* Intro Section */
+.intro-container {
+  height: 100vh;
+  padding-top: 80px; /* For navbar space */
+  position: relative;
+  z-index: 2; /* Ensure this is above the slideshow */
+}
+
+.floating-container {
+  position: absolute;
+  width: 600px; /* Adjust width as needed */
+  height: auto;
+  top: 120px; /* Distance from the top of the container */
+  left: 100; /* Distance from the right edge */
+  background-size: cover;
+  border-radius: 12px;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  animation: float 3s ease-in-out infinite;
+  text-align: center;
+  color: #fbfbfb; /* Light text color for contrast */
+}
+
+/* Optional floating animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.welcome-message h2 {
+  font-size: 1.8rem;
+  color: #800000;
+  margin-bottom: 20px;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+  z-index: 1; /* Ensure this is lower than the explore container */
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image covers the container */
+}
+
+.fade {
+  animation: fade 5s infinite;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.welcome-message {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.floating-container h2 {
+  color: #fbfbfb;
+  margin-top: 0;
+  font-size: 24px; /* Adjust font size as needed */
+  font-family: 'Arial', sans-serif; /* Choose a font that suits the design */
+}
+
+.floating-container p {
+  color: #fbfbfb;
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.5; /* Improve readability */
+}
+
+/* Map Container */
+.map-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.map-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+path {
+  stroke: #a4594b;
+  fill: #8d3d2f !important;
+  transition: fill .4s ease;
+}
+
+path:hover {
+  fill: rgba(235, 158, 17, 0.895) !important;
+}
+
+#ind-map {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+path:hover, circle:hover {
+  stroke: white !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #c86a29 !important;
+  cursor: pointer;
+}
+
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+
+#details-box1 {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: white;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.map-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+#details-box {
+  padding: 0.5rem 0.75rem; /* Further reduced padding for a smaller box */
+  border-radius: 3px; /* Reduced border radius for a tighter look */
+  font-size: 11px; /* Smaller font size for compactness */
+  position: fixed;
+  color: #4a2c2a; /* Maintained readable color */
+  font-family: "Poppins", sans-serif; /* Ensured a fallback font */
+  background-color: #f8f9fa; /* Light background color */
+  width: auto; /* Adjusted width to fit content */
+  max-width: 200px; /* Added max-width for better control of size */
+  transform: translateX(-50%);
+  transition: opacity 0.3s ease-in-out; /* Smooth transition */
+  z-index: 1000; /* High stacking order */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: px solid #aa9a9a; /* Light border for definition */
+}
+
+#chatbot-icon {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #c6bfb9;
+  color: white;
+  font-size: 28px;
+  padding: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chat-container {
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+
+#chat-container.show {
+  display: flex;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #8e3b12;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Slideshow styles */
+.slideshow-container {
+  position: absolute; /* Keep it fixed in the viewport */
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 80vh; /* Full viewport height */
+  overflow: hidden;
+  z-index: 1; /* Ensure it is below the image */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: add a dark overlay */
+}
+
+/* Ensure the slideshow images cover the container */
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 2s ease-in-out, filter 1s ease-in-out;
+  background-size: cover; /* Ensures full image display */
+  background-position: center;
+}
+
+/* Add a class for blurred effect on scroll */
+.scroll-blur {
+  filter: blur(5px); /* Adjust the blur intensity as needed */
+}
+
+/* Style for the picture that appears on scroll */
+.picture-container {
+  position: fixed; /* Fixed position so it stays visible */
+  top: 25%; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75vw; /* Adjust width as needed */
+  height: 75vh; /* Adjust height as needed */
+  z-index: 2; /* Ensure it is above the slideshow */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.picture-container.visible {
+  opacity: 1;
+  transform: translateY(0); /* Bring it to the visible position */
+}
+
+.picture-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image covers the container */
+}
+
+/* Chatbot container styling to ensure it is above everything */
+#chat-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+  z-index: 3; /* Ensure it is above the slideshow */
+}
+
+#close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#chat-box {
+  padding: 15px;
+  height: calc(100% - 100px); /* Adjust height according to the navbar and input container */
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bot-message {
+  background-color: #e2a62e;
+  text-align: left;
+  max-width: 80%;
+  margin-right: auto;
+}
+
+.user-message {
+  background-color: #8e3b12;
+  color: white;
+  text-align: right;
+  max-width: 60%;
+  margin-left: auto;
+}
+
+#input-container {
+  display: flex;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #f0f0f0;
+}
+
+#user-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#send-button {
+  padding: 10px 15px;
+  background-color: #d49408;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Picture on Scroll */
+.picture-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transform: translateX(-50%);
+  width: 60vw;
+  height: auto;
+  z-index: 2; /* Ensure this is above the slideshow */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+#scroll-image {
+  width: 100%;
+  height: auto;
+  border: 2px solid #cccccc00;
+  border-radius: 15px;
+}
+
+/* Animation for scroll image */
+.picture-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

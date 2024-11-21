@@ -1,0 +1,161 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/564x/b0/41/c9/b041c9eda6b947b41331bba19d79c6ca.jpg'); /* Dark background for the floating modal effect */
+    background-size: cover; /* Make the image cover the entire page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    color: #333;
+    height: 200vh; /* Make the page scrollable */
+    overflow-y: scroll; /* Enable vertical scroll */
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #800000;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 14px 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 14px 20px;
+    text-align: center;
+  }
+  
+  .navbar a:hover, .navbar a.active {
+    color: rgb(213, 182, 142);
+    background-color: rgba(72, 43, 10, 0.325);
+    border-radius: 5px;
+  }
+  
+  #floating-container {
+    position: fixed; /* Keeps the container in a fixed position relative to the viewport */
+    top: 15%; /* Moves the container 15% down from the top of the viewport */
+    left: 50%; /* Centers the container horizontally */
+    transform: translateX(-50%); /* Adjusts for correct centering by moving it back half of its width */
+    width: 90%; /* Sets the container's width to 90% of the viewport */
+    height: 80%; /* Sets the container's height to 80% of the viewport */
+    max-width: 800px; /* Ensures the container doesn't exceed 800px in width */
+    max-height: 600px; /* Ensures the container doesn't exceed 600px in height */
+    background-color: white; /* Sets the background color to white */
+    border-radius: 15px; /* Rounds the corners of the container */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adds a shadow for a floating effect */
+    overflow: hidden; /* Prevents content from spilling out */
+    z-index: 1000; /* Ensures the container is on top of other content */
+    display: flex; /* Allows flexible layout inside the container */
+    flex-direction: column; /* Arranges child elements vertically */
+}
+
+
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows buttons to wrap if necessary */
+    background-color: #6e1010;
+    padding: 10px;
+}
+
+.tab {
+    background-color: #8d552d;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.tab:hover {
+    background-color: #290d02;
+}
+
+#calendar-container {
+    flex-grow: 1; /* Makes the calendar fill the remaining space */
+    overflow-y: auto; /* Allows scrolling within the calendar */
+    padding: 20px;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    background-color: #6e1010;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.date {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date:hover {
+    background-color: #e0f2f1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.date[data-festival] {
+    background-color: #ffebee;
+    cursor: pointer;
+}
+
+.date[data-festival]::after {
+    content: attr(data-festival);
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: #b97d15;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    display: none;
+    text-align: center;
+}
+
+.date[data-festival]:hover::after {
+    display: block;
+}
