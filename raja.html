@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajasthan</title>
+    <link rel="stylesheet" href="../../static/css/style_raja.css">
+
+</head>
+<body>
+     
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="{{ url_for('home') }}">Home</a>
+        <a class="active" href="{{ url_for('map_page') }}">Map</a>
+        <a href="{{ url_for('facts_page') }}">Facts</a>
+        <a href="{{ url_for('shop_page') }}">Shop</a>
+        <a href="{{ url_for('calendar_page')}}">Calendar</a>
+        <a href="{{ url_for('aboutus_page') }}">About Us</a>
+        <a href="{{ url_for('contact_page') }}">Contact</a>
+    </div>
+    
+    <!-- Slide show + Greeting -->
+    <div class="slideshow-container">
+        <div class="content">
+            <h1>Khamma Ghani</h1>
+            <p>Prepare to embark on a captivating journey through the mesmerizing state of Rajasthan, the land of maharajas is home to numerous medieval forts and palaces. This lively palace state of India features royalty, tradition, culture, and flavorsome cuisine</p>
+        </div> 
+    </div>
+
+    <!-- Facts -->
+    <div class="facts-section">
+        <h2>FACTS</h2>
+        <div class="facts-container">
+            <div class="fact-box" id="fact1">
+                <h3>Nuclear Test Location</h3>
+                <img src="https://dr7f10k1l6bnm.cloudfront.net/wp-content/uploads/2023/07/20-min-1.jpg" alt="Fact 1 Image">
+                <p>Rajasthan’s Pokhran is etched in India’s history as the site where the country conducted its first successful nuclear tests in 1974 and 1998. These historic tests cemented India’s position as a nuclear power and brought global attention to the region. While not open for public visits, the Pokhran region serves as a reminder of India’s scientific and technological achievements in the defense sector and adds it to the list of interesting facts about Rajasthan.</p>
+            </div>
+
+            <div class="fact-box" id="fact2">
+                <h3>The Only Temple of Lord Brahma in the World</h3>
+                <img src="../../static/extra/Brahma-Temple-Pushkar.jpg" alt="Fact 2 Image">
+                <p>Pushkar, a sacred town in Rajasthan, houses the renowned Brahma Temple, the only temple dedicated to Lord Brahma in the world. This ancient pilgrimage site attracts devotees and tourists alike, who visit to seek blessings. You can also visit the Savitri Mata Mandir who is also the wife of Lord Brahma by a ropeway and enjoy the panoramic views of the entire Pushkar Town.</p>
+            </div>
+
+            <div class="fact-box" id="fact3">
+                <h3>Largest Camel Fair in the World</h3>
+                <img src="https://dr7f10k1l6bnm.cloudfront.net/wp-content/uploads/2023/07/8-min-12-scaled.jpg%E2%80%9D" alt="Fact 3 Image">
+                <p>The Pushkar Camel Fair, held annually is the largest camel fair in the world adding to the list of facts about Rajasthan. This vibrant event is a unique blend of cultural festivities, trading of livestock, and religious significance. Tourists and locals alike gather to witness the spectacle of thousands of camels being adorned, raced, and sold, making it a must-visit experience.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Monuments -->
+     <div id="monuments" class="monuments-section"></div>
+     <h2 class="monuments-heading">MONUMENTS</h2>
+    
+     <div class="monument-container">
+        
+        <div class="monument-box">
+            <h2>Amer Fort</h2>
+            <img src="https://img.veenaworld.com/wp-content/uploads/2018/07/Amer-Fort.jpg?imwidth=1000" alt="Monument 1">
+            <p>Fabricated in the 17th Century and located on a scenic hill, Amber Fort is one of the most beautiful historical monuments of Rajasthan to visit, which is at a distance of 11 km from Jaipur city. Also commonly known as Amer Fort, this famous tourist attraction was built by Raja Man Singh, the king of the Amer region. The Amber Fort is the perfect amalgamation of Hindu and Muslim architectural styles. The combination of white and red sandstones makes the Amber Fort a magnificent architectural splendour in the pink city, Jaipur. Nestled next to Maota Lake, the majestic charm and geographical features of the Amber Fort make it one of the most visited monuments in Rajasthan tour packages.</p>
+        </div>
+        
+        <div class="monument-box">
+            <h2>City Palace</h2>
+            <img src="https://img.veenaworld.com/wp-content/uploads/2018/07/city-palace-jaipur-tourmyindia.jpg?imwidth=755" alt="Monument 2">
+            <p>The City Palace, the royal abode, is another monument in Jaipur, Rajasthan, built by Raja Sawai Jai Singh, a Rajput ruler of the Amer region. The City Palace in the present time is a palace where royal families still live and stay; the palace is known as Chandra Mahal. A famous tale about the City Palace is that the palace premises has a huge silver pot which the former king of the palace used to carry holy water of Ganga in it when he used to travel abroad with his other ministers and soldiers. The City Palace also has three museums with arms and armament, carpets and furniture, and clothing and accessories of the royal families. The palace complex has a UNESCO World Heritage Site monument, Jantar Mantar, which is a famous observatory.</p>
+        </div>
+
+        <div class="monument-box">
+            <h2>Hawa Mahal</h2>
+            <img src="https://img.veenaworld.com/wp-content/uploads/2021/09/Hawa-Mahal-scaled.jpg" alt="Monument 3">
+            <p>Fabricated in the year 1799 by Maharaja Sawai Pratap Singh, the prized jewel of Rajasthan, Hawa Mahal, is situated on the busy streets of Jaipur. The Hawa Mahal is one of the historical monuments in Jaipur that has honeycombed hive windows that are spread over five stories. There are almost 953 windows in the Hawa Mahal that the royal ladies once used as a veil to enjoy the activities that took place in the local market. Constructed with pink and red sandstones, Lal Chand Ustad, the designer of the Hawa Mahal, dedicated the beautiful architecture of the mahal to Lord Krishna and Radha. Also known as the ‘Palace of Winds,’ the Hawa Mahal is an exquisite amalgamation of Hindu and Mughal styles of architecture. Hawa Mahal is one of the most visited historical monuments of Rajasthan that narrates the history of the Rajputana lifestyle.</p>
+        </div>
+
+        <div class="monument-box">
+            <h2>Chittorgarh Fort</h2>
+            <img src="https://img.veenaworld.com/wp-content/uploads/2018/08/Chittorgarh2.jpg?imwidth=1000" alt="Monument 4">
+            <p>Built in the 7th century, the Chittorgarh Fort is one of the oldest and important monuments in Rajasthan. Many stories of heroism and bravery of the Rajputana warriors are associated with the fort. The UNESCO World Heritage site Chittorgarh Fort has seven gates that have a lot to explore, such as Rani Padmini Palace, Ratan Singh’s Palace, Badal Mahal, and a three-storied white sandstone Rani Padmavati Palace. Nestled on the banks of river Berach, the Chittorgarh Fort is perched on a 590 feet tall hill and is one of the largest forts in India. Chittorgarh Fort is also the land of many historical brave women like Rani Padmini, Rani Karnavati, and Meera Bai.</p>
+        </div>
+
+        <div class="monument-box">
+            <h2>Junagarh Fort</h2>
+            <img src="https://img.veenaworld.com/wp-content/uploads/2021/03/Junagarh-Fort-Bikaner-Major-Attractions-and-Other-Details.jpeg" alt="Monument 5">
+            <p>Renowned as the testimony for the regal Rajputana architecture, the Junagarh Fort in Bikaner is also one of the best tourist destinations in Rajasthan. The beautiful Junagarh Fort was built in 1588 AD by Raja Rai Singh. Unlike other forts in Rajasthan that are constructed on hilltops, the Junagarh Fort is built in the heart of the Bikaner city. The Junagarh Fort is associated with a lot of historical significance, as invaders never conquered the fort even after several attempts. The fort is still intact in the present time, and a part of the Junagarh Fort has been converted into a museum to preserve the ancient artefacts of the warriors and royal families. Travellers visiting the Junagarh Fort also take pictures of themselves in colourful Rajasthani attire outside the Junagarh museum</p>
+        </div>
+
+        <div class="monument-box">
+            <h2>Mehrangarh Fort</h2>
+            <img src="https://img.veenaworld.com/wp-content/uploads/2021/10/Mehrangarh.jpg" alt="Monument 6">
+            <p>The Mehrangarh Fort, Jodhpur, is one of the most stunning places to visit in Rajasthan. Situated at an altitude of around 400 meters above sea level on a rocky cliff, one can watch the Mehrangarh Fort from any vantage point of the city. Built by Rao Jodha in 1459, the fort is spread across an area of 5 km. There are seven gates in the Mehrangarh Fort, which different rulers built in different time periods in honour of the victory over Jaipur and Bikaner armies.  The palace also has a museum that displays the collection of palanquins, clothes, accessories, musical instruments, and royal costumes and armaments. The Mehrangarh Fort, Jodhpur, is one of the most famous historical monuments of Rajasthan for its exquisite architecture and diverse history related to it.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Food -->
+<div class="food-section">
+    <h2 class="food-heading">FOOD</h2>
+    <div class="food-container">
+        
+        <div class="food-box">
+            <h2>Ghewar</h2>
+            <img src="../../static/extra/ghewar.jpg" alt="Food 1">
+        </div>
+        
+        <div class="food-box">
+            <h2>Kachori</h2>
+            <img src="../../static/extra/kachori.jpeg" alt="Food 2">
+        </div>
+        
+        <div class="food-box">
+            <h2>Daal Bhati Churam</h2>
+            <img src="https://ebnw.net/wp-content/uploads/2024/02/A-187.png.webp" alt="Food 3">
+        </div>
+        
+        <div class="food-box">
+            <h2>Bajar Roti</h2>
+            <img src="../../static/extra/bajra.jpeg" alt="Food 4">
+        </div>
+        
+        <div class="food-box">
+            <h2>Laal Maas</h2>
+            <img src="../../static/extra/laal maas.jpeg" alt="Food 5">
+        </div>
+        
+        <div class="food-box">
+            <h2>Gatte ki Sabzi</h2>
+            <img src="https://mytastycurry.com/wp-content/uploads/2022/02/gatte-ki-sabzi-682x1024.jpg" alt="Food 6">
+        </div>
+    </div>
+</div>
+
+<!-- Art -->
+<!-- Arts and Architecture Section -->
+<div class="arts-section">
+    <!-- Slideshow Container -->
+    <div class="arts-slideshow-container">
+        <div class="art-slide fade">
+            <img src="../../static/extra/1.jpg" alt="Art 1">
+        </div>
+        <div class="art-slide fade">
+            <img src="../../static/extra/2.jpg" alt="Art 2">
+        </div>
+        <div class="art-slide fade">
+            <img src="../../static/extra/3.jpg" alt="Art 3">
+        </div>
+        <div class="art-slide fade">
+            <img src="../../static/extra/4.jpg" alt="Art 4">
+        </div>
+    </div>
+
+    <!-- Heading Section -->
+    <div class="arts-heading">
+        ART & ARCHITECTURE
+    </div>
+</div>
+
+<!-- Dance -->
+<div class="dance-section">
+    <h2 class="dance-heading">DANCE</h2>
+    <div class="dance-container">
+        <div class="dance-box">
+            <h3>Ghoomar</h3>
+            <img src="https://www.gosahin.com/go/p/e/1541272781_Ghoomar-Dance1.jpg" alt="Ghoomar">
+        </div>
+        
+        <div class="dance-box">
+            <h3>Kalbeliya</h3>
+            <img src="https://lms.chanakyamandal.org/wp-content/uploads/2021/08/1625132223_image3.jpg" alt="Kalbeliya">
+        </div>
+        
+        <div class="dance-box">
+            <h3>Kathputli Dance</h3>
+            <img src="https://ddnews.gov.in/wp-content/uploads/2023/10/dolls-dying-of-the-light-puppet.jpg" alt="Kathputli Dance">
+        </div>
+        
+        <div class="dance-box">
+            <h3>Bhavai dance</h3>
+            <img src="https://www.utsavpedia.com/wp-content/uploads/2014/11/1.-httpwww.rajasthanvisit.comImagesBhawaiDance4.jpg.jpg" alt="Bhavai dance">
+        </div>
+        
+        <div class="dance-box">
+            <h3>Chani Dance</h3>
+            <img src="https://5.imimg.com/data5/FE/LS/EZ/GLADMIN-77072479/selection-211.png" alt="Chani Dance">
+        </div>
+    </div>
+</div>
+
+<!-- FOLKLORE -->
+ <!-- Folklore Section -->
+<!-- Folklore Section -->
+<div class="folklore-section">
+    <h2 class="folklore-heading">Folklore</h2>
+    <div class="video-container">
+        <video controls>
+            <source src="../../static/extra/folklore.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+
+ <!-- Footer : insta facebook mail etc -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Explore Rajasthan. All rights reserved.</p>
+            <ul class="social-icons">
+                <li><a href="#facebook">Facebook</a></li>
+                <li><a href="#twitter">Twitter</a></li>
+                <li><a href="#instagram">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- js ka link -->
+    <script src="../../static/js/script_raja.js"></script>
+</body>
+</html>
