@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - India's Cultural Heritage Hub</title>
+    <style>
+        /* Base styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #5e3020, #e9e1cc);
+            color: #FFF;
+            overflow-x: hidden;
+        }
+
+        /* Header section */
+        .header {
+            padding: 70px 20px;
+            text-align: center;
+            position: relative;
+            color: #3b1717;
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        /* Styling the navigation bar */
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #800000;
+            padding: 14px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            padding: 14px 20px;
+            text-align: center;
+        }
+
+        .navbar a:hover, .navbar a.active {
+            color: rgb(213, 182, 142);
+  background-color: rgba(72, 43, 10, 0.325);
+            border-radius: 5px;
+        }
+
+        /* Adding padding below the navbar */
+        .content {
+            padding: 80px 20px;
+        }
+
+        /* Container styling */
+        .container {
+            background: white;
+            padding: 40px;
+            margin: 60px auto;
+            max-width: 80%;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.6s ease, box-shadow 0.6s ease;
+        }
+
+        .container h1 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    color: rgb(83, 7, 7); /* Accent color or any color you prefer */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center-align the heading */
+    text-transform: uppercase; /* Optional: make text uppercase */
+    letter-spacing: 2px; /* Optional: spacing between letters */
+    animation: fadeIn 1s ease-in-out; /* Animation effect */
+}
+
+
+        .container:hover {
+            transform: translateY(-20px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .container:before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            background-color: rgba(128, 0, 0, 0.4);
+            border-radius: 50%;
+            animation: blob 10s infinite ease-in-out;
+        }
+
+        .container:after {
+            content: '';
+            position: absolute;
+            bottom: -50px;
+            right: -50px;
+            width: 200px;
+            height: 200px;
+            background-color: rgba(128, 0, 0, 0.4);
+            border-radius: 50%;
+            animation: blob 8s infinite ease-in-out alternate;
+        }
+
+        .container h3 {
+            font-size: 2.5rem;
+            color: #422828;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 1.2rem;
+            color: #000000;
+            line-height: 1.7;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes blob {
+            0% {
+                transform: translate(0, 0);
+            }
+            50% {
+                transform: translate(30px, -30px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        /* Button styling */
+        .cta-button {
+            background: linear-gradient(90deg, #F2C94C, #800000);
+            border: none;
+            padding: 15px 40px;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            margin-top: 40px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: linear-gradient(90deg, #800000, #F2C94C);
+            transform: scale(1.1);
+        }
+
+        /* Section styling */
+        .section {
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+        }
+
+        .section:nth-child(2n) .container {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #800000;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            margin-top: 60px;
+        }
+
+        footer p {
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="MAIN.html">Home</a>
+        <a href="map.html">Map</a>
+        <a href="facts.html">Facts</a>
+        <a href="shop.html">Shop</a>
+        <a class="active" href="aboutus.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+
+    <!-- About Us Section -->
+    <br><br><br>
+    <section class="section">
+        <div class="container">
+            <h3>About Us</h3>
+            <p>
+                We are dedicated to uniting people with the extraordinary cultural heritage of India. From art to cuisine, we take pride in celebrating the
+                diversity that shapes the soul of our nation. Our platform is built to immerse you in the vibrant traditions, while empowering local artisans
+                by connecting their talent to the world.
+            </p>
+        </div>
+        <div class="container">
+            <h3>Our Vision</h3>
+            <p>
+                Our vision is to bring India's timeless culture into the digital age, fostering a deep understanding and appreciation for our heritage.
+                We aim to build bridges between communities, supporting the continuation of craft, tradition, and the stories that have been passed
+                down through generations.
+            </p>
+        </div>
+            <div class="container">
+            <h3>Meet Our Team</h3>
+            <p>
+                Our team, Drashta includes second year students of Indira Gandhi Delhi Technical University for Women, New Delhi.
+            </p>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Button -->
+    <section class="section">
+        <a href="contact.html" class="cta-button">Join Us on This Journey</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 India's Cultural Heritage Hub | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

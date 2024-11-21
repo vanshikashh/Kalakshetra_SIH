@@ -1,0 +1,63 @@
+/* Basic page setup */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Video container with parallax effect */
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Send video to background */
+}
+
+/* Welcome text over the video */
+.welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Parallax effect on scroll */
+.content {
+    height: 200vh; /* Make page scrollable */
+    background-color: #f4f4f4;
+}
+
+/* Parallax scrolling effect */
+.parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+/* Additional content section */
+.content-section {
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}

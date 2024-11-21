@@ -1,0 +1,424 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.container, .content, .video-section, .parallax {
+    width: 100%;
+    margin: 0 auto; /* Center the content */
+    padding: 0;
+}
+/* Ensure no elements extend beyond the viewport */
+* {
+    box-sizing: border-box;
+}
+
+img, .category-card, .product-card {
+    max-width: 100%;
+    box-sizing: border-box; /* Include padding and borders in the element's total width */
+}
+
+/* Video container with parallax effect */
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Send video to background */
+}
+
+/* Welcome text over the video */
+.welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Parallax effect on scroll */
+.content {
+    width:100%;
+    height: 200vh; /* Make page scrollable */
+    background-color: #f4f4f4;
+}
+
+/* Define keyframes for slide-in animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(100px); /* Start position */
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0); /* End position */
+        opacity: 1;
+    }
+}
+
+/* Apply slide-in animation to the parallax container */
+.parallax {
+    /* Other existing styles */
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+/* Apply slide-in animation to the image */
+.parallax img {
+    animation: slideIn 2s ease-out;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Additional content section */
+.content-section {
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Smooth fade transition */
+.video-section, .parallax {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Hidden video as you scroll away */
+.video-section.hidden {
+    opacity: 0;
+}
+
+/* Hidden parallax before entering view */
+.parallax.hidden {
+    opacity: 0;
+}
+
+/* Visible parallax when scrolling into view */
+.parallax.visible {
+    opacity: 1;
+}
+/* Navbar */
+nav {
+    background-color: #800000;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 14px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: rgb(213, 182, 142);
+  background-color: rgba(72, 43, 10, 0.325);
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.icons a:hover {
+    color: #F2C94C;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .cta-button {
+    background-color: #F2C94C;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #800000;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #800000;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Product Section */
+.featured-products, .categories, .deals {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #FFF;
+}
+.product-card img, .category-card img {
+    width: 100%;
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensure images cover the container without distortion */
+}
+h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #800000;
+}
+
+.product-grid, .category-grid, .deal-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card, .category-card, .deal-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    width: 100%;
+}
+
+.product-card:hover, .category-card:hover, .deal-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img, .category-card img, .deal-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3, .category-card h3, .deal-card h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product-card p, .deal-card p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 1rem;
+}
+
+.product-card button {
+    margin-top: 15px;
+    background-color: #800000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #F2C94C;
+    color: #800000;
+}
+/* Basic styles for the category cards */
+.category-card {
+    opacity: 0;
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+    width: calc(50% - 50px); /* Adjust the width to account for gap */
+    margin: 10px; /* Add some vertical margin between cards */
+}
+
+/* Cards sliding from the left */
+.category-card.slide-in-left {
+    transform: translateX(-100px);
+    opacity: 1;
+}
+
+/* Cards sliding from the right */
+.category-card.slide-in-right {
+    transform: translateX(100px);
+    opacity: 1;
+}
+
+/* Adjust layout to ensure there's a gap between left and right sliding elements */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px; /* Fixed gap between the sliding categories */
+}
+
+/* Deals Section Styling */
+.deals {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .deals h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Deals Container Flex Layout */
+  .deals-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between the deals */
+    flex-wrap: wrap; /* Ensure it wraps on smaller screens */
+  }
+  
+  .deal {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px; /* Adjust width to your preference */
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .deal:hover {
+    transform: translateY(-10px); /* Slight hover animation */
+  }
+  
+  .deal img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .deal-info {
+    padding: 20px;
+  }
+  
+  .deal-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .deal-info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4500;
+  }
+  
+  /* Responsive for smaller screens */
+  @media (max-width: 768px) {
+    .deals-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .deal {
+      max-width: 90%;
+    }
+  }
+  
+  
+/* Footer */
+footer {
+    background-color: #800000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+}
+
+footer .social-media {
+    margin: 20px 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.2rem;
+}
+
+footer .social-media a:hover {
+    color: #F2C94C;
+}
+
+footer p {
+    font-size: 1rem;
+}

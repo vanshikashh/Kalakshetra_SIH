@@ -1,0 +1,337 @@
+{
+    "greeting": "Namaste! I am Indu & I am here to help you plan your trip. Let's see our Incredible India !",
+    "destination": {
+        "bangalore": {
+            "1_day": "For a 1-day trip to Bangalore:\nVisit Lalbagh Botanical Garden, Bangalore Palace, and Cubbon Park.\n",
+            "2_days": "For a 2-day trip to Bangalore:\nDay 1: Lalbagh Botanical Garden, Bangalore Palace, Cubbon Park.\nDay 2: Explore Nandi Hills and visit the Vidhana Soudha.\n",
+            "3_days": "For a 3-day trip to Bangalore:\nDay 1: Lalbagh Botanical Garden, Bangalore Palace, Cubbon Park.\nDay 2: Nandi Hills, Vidhana Soudha.\nDay 3: Visit Bannerghatta National Park and explore local markets.\n",
+            "4_days": "For a 4-day trip to Bangalore:\nDay 1: Lalbagh Botanical Garden, Bangalore Palace, Cubbon Park.\nDay 2: Nandi Hills, Vidhana Soudha.\nDay 3: Bannerghatta National Park.\nDay 4: Visit the nearby town of Mysore - Explore Mysore Palace and Chamundi Hill.\n",
+            "5_days": "For a 5-day trip to Bangalore:\nDay 1: Lalbagh Botanical Garden, Bangalore Palace, Cubbon Park.\nDay 2: Nandi Hills, Vidhana Soudha.\nDay 3: Bannerghatta National Park.\nDay 4: Mysore - Mysore Palace, Chamundi Hill.\nDay 5: Explore Coorg for its coffee plantations and scenic beauty.\n"
+        },
+        "hyderabad": {
+            "1_day": "For a 1-day trip to Hyderabad:\nVisit Charminar, Golconda Fort, and Hussain Sagar Lake.\n",
+            "2_days": "For a 2-day trip to Hyderabad:\nDay 1: Charminar, Golconda Fort, Hussain Sagar Lake.\nDay 2: Explore the Salar Jung Museum and the Qutb Shahi Tombs.\n",
+            "3_days": "For a 3-day trip to Hyderabad:\nDay 1: Charminar, Golconda Fort, Hussain Sagar Lake.\nDay 2: Salar Jung Museum, Qutb Shahi Tombs.\nDay 3: Visit Ramoji Film City or explore the Nehru Zoological Park.\n",
+            "4_days": "For a 4-day trip to Hyderabad:\nDay 1: Charminar, Golconda Fort, Hussain Sagar Lake.\nDay 2: Salar Jung Museum, Qutb Shahi Tombs.\nDay 3: Ramoji Film City or Nehru Zoological Park.\nDay 4: Explore the nearby town of Warangal - Visit the Warangal Fort and the Thousand Pillar Temple.\n",
+            "5_days": "For a 5-day trip to Hyderabad:\nDay 1: Charminar, Golconda Fort, Hussain Sagar Lake.\nDay 2: Salar Jung Museum, Qutb Shahi Tombs.\nDay 3: Ramoji Film City or Nehru Zoological Park.\nDay 4: Warangal - Warangal Fort, Thousand Pillar Temple.\nDay 5: Visit the nearby town of Pochampally for its traditional weaving industry.\n"
+        },
+        "jaipur": {
+            "1_day": "For a 1-day trip to Jaipur:\nVisit Amber Fort, City Palace, and Hawa Mahal.\n",
+            "2_days": "For a 2-day trip to Jaipur:\nDay 1: Amber Fort, City Palace, Hawa Mahal.\nDay 2: Explore Jantar Mantar, Nahargarh Fort, and the local markets.\n",
+            "3_days": "For a 3-day trip to Jaipur:\nDay 1: Amber Fort, City Palace, Hawa Mahal.\nDay 2: Jantar Mantar, Nahargarh Fort.\nDay 3: Visit Jaigarh Fort and enjoy a traditional Rajasthani dinner.\n",
+            "4_days": "For a 4-day trip to Jaipur:\nDay 1: Amber Fort, City Palace, Hawa Mahal.\nDay 2: Jantar Mantar, Nahargarh Fort.\nDay 3: Jaigarh Fort.\nDay 4: Visit the nearby town of Pushkar - Explore the Brahma Temple and Pushkar Lake.\n",
+            "5_days": "For a 5-day trip to Jaipur:\nDay 1: Amber Fort, City Palace, Hawa Mahal.\nDay 2: Jantar Mantar, Nahargarh Fort.\nDay 3: Jaigarh Fort.\nDay 4: Pushkar - Brahma Temple, Pushkar Lake.\nDay 5: Explore the town of Ajmer - Visit Ajmer Sharif Dargah and the Ana Sagar Lake.\n"
+        },
+        "delhi_ncr": {
+            "1_day": "For a 1-day trip to Delhi NCR:\nVisit the Lotus Temple in Delhi and the Kingdom of Dreams in Gurgaon.\n",
+            "2_days": "For a 2-day trip to Delhi NCR:\nDay 1: Delhi - Lotus Temple.\nDay 2: Gurgaon - Kingdom of Dreams and Cyber Hub.\n",
+            "3_days": "For a 3-day trip to Delhi NCR:\nDay 1: Delhi - Lotus Temple.\nDay 2: Gurgaon - Kingdom of Dreams, Cyber Hub.\nDay 3: Explore Noida - Visit the Great India Place Mall and visit the Okhla Bird Sanctuary.\n",
+            "4_days": "For a 4-day trip to Delhi NCR:\nDay 1: Delhi - Lotus Temple.\nDay 2: Gurgaon - Kingdom of Dreams, Cyber Hub.\nDay 3: Noida - Great India Place Mall, Okhla Bird Sanctuary.\nDay 4: Visit Faridabad - Explore the Badkhal Lake and the Surajkund Craft Fair.\n",
+            "5_days": "For a 5-day trip to Delhi NCR:\nDay 1: Delhi - Lotus Temple.\nDay 2: Gurgaon - Kingdom of Dreams, Cyber Hub.\nDay 3: Noida - Great India Place Mall, Okhla Bird Sanctuary.\nDay 4: Faridabad - Badkhal Lake, Surajkund Craft Fair.\nDay 5: Explore the nearby town of Agra for a day trip to Taj Mahal and Agra Fort.\n"
+        },
+        "lakshadweep": {
+            "1_day": "For a 1-day trip to Lakshadweep:\nVisit Agatti Island - Relax on the beach and enjoy snorkeling.\n",
+            "2_days": "For a 2-day trip to Lakshadweep:\nDay 1: Agatti Island - Beach relaxation, snorkeling.\nDay 2: Visit Bangaram Island - Explore its pristine beaches and enjoy water sports.\n",
+            "3_days": "For a 3-day trip to Lakshadweep:\nDay 1: Agatti Island - Beach relaxation, snorkeling.\nDay 2: Bangaram Island - Explore, water sports.\nDay 3: Visit Kavaratti Island - Enjoy the local culture and visit the marine aquarium.\n",
+            "4_days": "For a 4-day trip to Lakshadweep:\nDay 1: Agatti Island - Beach relaxation, snorkeling.\nDay 2: Bangaram Island - Explore, water sports.\nDay 3: Kavaratti Island - Marine aquarium, local culture.\nDay 4: Visit Kalapeni Island - Enjoy the lagoon and snorkeling.\n",
+            "5_days": "For a 5-day trip to Lakshadweep:\nDay 1: Agatti Island - Beach relaxation, snorkeling.\nDay 2: Bangaram Island - Explore, water sports.\nDay 3: Kavaratti Island - Marine aquarium, local culture.\nDay 4: Kalapeni Island - Lagoon, snorkeling.\nDay 5: Visit Minicoy Island - Explore its unique culture and beaches.\n"
+        },
+        "daman_and_diu": {
+            "1_day": "For a 1-day trip to Daman and Diu:\nVisit Daman - Explore the Daman Fort and the Jampore Beach.\n",
+            "2_days": "For a 2-day trip to Daman and Diu:\nDay 1: Daman - Daman Fort, Jampore Beach.\nDay 2: Diu - Visit the Diu Fort and Nagoa Beach.\n",
+            "3_days": "For a 3-day trip to Daman and Diu:\nDay 1: Daman - Daman Fort, Jampore Beach.\nDay 2: Diu - Diu Fort, Nagoa Beach.\nDay 3: Explore the local churches in Diu and enjoy the Sunset at Ghoghla Beach.\n",
+            "4_days": "For a 4-day trip to Daman and Diu:\nDay 1: Daman - Daman Fort, Jampore Beach.\nDay 2: Diu - Diu Fort, Nagoa Beach.\nDay 3: Local churches in Diu, Sunset at Ghoghla Beach.\nDay 4: Visit the Portuguese Cathedral and explore the local markets.\n",
+            "5_days": "For a 5-day trip to Daman and Diu:\nDay 1: Daman - Daman Fort, Jampore Beach.\nDay 2: Diu - Diu Fort, Nagoa Beach.\nDay 3: Local churches, Sunset at Ghoghla Beach.\nDay 4: Portuguese Cathedral, local markets.\nDay 5: Enjoy a day trip to the nearby beaches and relax at a local resort.\n"
+        },
+        "dadra_and_nagar_haveli": {
+            "1_day": "For a 1-day trip to Dadra and Nagar Haveli:\nVisit Silvassa - Explore the Vanganga Lake Garden and the Tribal Museum.\n",
+            "2_days": "For a 2-day trip to Dadra and Nagar Haveli:\nDay 1: Silvassa - Vanganga Lake Garden, Tribal Museum.\nDay 2: Visit the Deer Park and the Dudhni Lake.\n",
+            "3_days": "For a 3-day trip to Dadra and Nagar Haveli:\nDay 1: Silvassa - Vanganga Lake Garden, Tribal Museum.\nDay 2: Deer Park, Dudhni Lake.\nDay 3: Explore the local markets and visit the Swaminarayan Temple.\n",
+            "4_days": "For a 4-day trip to Dadra and Nagar Haveli:\nDay 1: Silvassa - Vanganga Lake Garden, Tribal Museum.\nDay 2: Deer Park, Dudhni Lake.\nDay 3: Local markets, Swaminarayan Temple.\nDay 4: Visit the nearby town of Dadra and explore its local attractions.\n",
+            "5_days": "For a 5-day trip to Dadra and Nagar Haveli:\nDay 1: Silvassa - Vanganga Lake Garden, Tribal Museum.\nDay 2: Deer Park, Dudhni Lake.\nDay 3: Local markets, Swaminarayan Temple.\nDay 4: Nearby town of Dadra.\nDay 5: Enjoy a relaxing day at a local resort or explore more of the natural beauty of the region.\n"
+        },
+        "puducherry": {
+            "1_day": "For a 1-day trip to Puducherry:\nVisit the French Quarter, explore Promenade Beach, and visit Aurobindo Ashram.\n",
+            "2_days": "For a 2-day trip to Puducherry:\nDay 1: French Quarter, Promenade Beach, Aurobindo Ashram.\nDay 2: Visit Auroville - Explore the Matrimandir and surrounding area.\n",
+            "3_days": "For a 3-day trip to Puducherry:\nDay 1: French Quarter, Promenade Beach, Aurobindo Ashram.\nDay 2: Auroville - Matrimandir.\nDay 3: Visit the Puducherry Botanical Gardens and Chunnambar Boat House.\n",
+            "4_days": "For a 4-day trip to Puducherry:\nDay 1: French Quarter, Promenade Beach, Aurobindo Ashram.\nDay 2: Auroville - Matrimandir.\nDay 3: Botanical Gardens, Chunnambar Boat House.\nDay 4: Explore the nearby town of Karaikal and its temples.\n",
+            "5_days": "For a 5-day trip to Puducherry:\nDay 1: French Quarter, Promenade Beach, Aurobindo Ashram.\nDay 2: Auroville - Matrimandir.\nDay 3: Botanical Gardens, Chunnambar Boat House.\nDay 4: Karaikal - Temples and local culture.\nDay 5: Visit the beautiful beaches of Paradise Beach and Serenity Beach.\n"
+        },
+        "andaman_nicobar_islands": {
+            "1_day": "For a 1-day trip to Andaman and Nicobar Islands:\nVisit Port Blair - Explore the Cellular Jail and enjoy a local beach.\n",
+            "2_days": "For a 2-day trip to Andaman and Nicobar Islands:\nDay 1: Port Blair - Cellular Jail, local beach.\nDay 2: Havelock Island - Relax at Radhanagar Beach.\n",
+            "3_days": "For a 3-day trip to Andaman and Nicobar Islands:\nDay 1: Port Blair - Cellular Jail, local beach.\nDay 2: Havelock Island - Radhanagar Beach.\nDay 3: Neil Island - Explore Laxmanpur Beach and Bharatpur Beach.\n",
+            "4_days": "For a 4-day trip to Andaman and Nicobar Islands:\nDay 1: Port Blair - Cellular Jail, local beach.\nDay 2: Havelock Island - Radhanagar Beach.\nDay 3: Neil Island - Laxmanpur Beach, Bharatpur Beach.\nDay 4: Explore North Andaman - Visit the Diglipur and enjoy the local scenery.\n",
+            "5_days": "For a 5-day trip to Andaman and Nicobar Islands:\nDay 1: Port Blair - Cellular Jail, local beach.\nDay 2: Havelock Island - Radhanagar Beach.\nDay 3: Neil Island - Laxmanpur Beach, Bharatpur Beach.\nDay 4: North Andaman - Diglipur.\nDay 5: Explore the marine life with snorkeling and scuba diving in North Bay Island.\n"
+        },
+        "chandigarh": {
+            "1_day": "For a 1-day trip to Chandigarh:\nVisit the Rock Garden and Sukhna Lake.\n",
+            "2_days": "For a 2-day trip to Chandigarh:\nDay 1: Rock Garden, Sukhna Lake.\nDay 2: Visit the Rose Garden and the Chandigarh Capitol Complex.\n",
+            "3_days": "For a 3-day trip to Chandigarh:\nDay 1: Rock Garden, Sukhna Lake.\nDay 2: Rose Garden, Chandigarh Capitol Complex.\nDay 3: Explore the Sector 17 Plaza and the Punjab University Campus.\n",
+            "4_days": "For a 4-day trip to Chandigarh:\nDay 1: Rock Garden, Sukhna Lake.\nDay 2: Rose Garden, Chandigarh Capitol Complex.\nDay 3: Sector 17 Plaza, Punjab University Campus.\nDay 4: Day trip to nearby Panchkula - Visit the Mansa Devi Temple and the Cactus Garden.\n",
+            "5_days": "For a 5-day trip to Chandigarh:\nDay 1: Rock Garden, Sukhna Lake.\nDay 2: Rose Garden, Chandigarh Capitol Complex.\nDay 3: Sector 17 Plaza, Punjab University Campus.\nDay 4: Panchkula - Mansa Devi Temple, Cactus Garden.\nDay 5: Visit the nearby city of Mohali and explore local attractions.\n"
+        },
+        "chennai": {
+            "1_day": "For a 1-day trip to Chennai:\nVisit Marina Beach and the Kapaleeshwarar Temple.\n",
+            "2_days": "For a 2-day trip to Chennai:\nDay 1: Marina Beach, Kapaleeshwarar Temple.\nDay 2: Explore Fort St. George and the Government Museum.\n",
+            "3_days": "For a 3-day trip to Chennai:\nDay 1: Marina Beach, Kapaleeshwarar Temple.\nDay 2: Fort St. George, Government Museum.\nDay 3: Visit Mahabalipuram - Explore the Shore Temple and the Five Rathas.\n",
+            "4_days": "For a 4-day trip to Chennai:\nDay 1: Marina Beach, Kapaleeshwarar Temple.\nDay 2: Fort St. George, Government Museum.\nDay 3: Mahabalipuram - Shore Temple, Five Rathas.\nDay 4: Explore the Guindy National Park and the Ashtalakshmi Temple.\n",
+            "5_days": "For a 5-day trip to Chennai:\nDay 1: Marina Beach, Kapaleeshwarar Temple.\nDay 2: Fort St. George, Government Museum.\nDay 3: Mahabalipuram - Shore Temple, Five Rathas.\nDay 4: Guindy National Park, Ashtalakshmi Temple.\nDay 5: Visit the cultural city of Kanchipuram and explore its temples.\n"
+        },
+        "kolkata": {
+            "1_day": "For a 1-day trip to Kolkata:\nVisit Victoria Memorial and the Indian Museum.\n",
+            "2_days": "For a 2-day trip to Kolkata:\nDay 1: Victoria Memorial, Indian Museum.\nDay 2: Explore Howrah Bridge, Marble Palace.\n",
+            "3_days": "For a 3-day trip to Kolkata:\nDay 1: Victoria Memorial, Indian Museum.\nDay 2: Howrah Bridge, Marble Palace.\nDay 3: Visit Dakshineswar Kali Temple and Belur Math.\n",
+            "4_days": "For a 4-day trip to Kolkata:\nDay 1: Victoria Memorial, Indian Museum.\nDay 2: Howrah Bridge, Marble Palace.\nDay 3: Dakshineswar Kali Temple, Belur Math.\nDay 4: Explore the Kalighat Temple and the South Park.\n",
+            "5_days": "For a 5-day trip to Kolkata:\nDay 1: Victoria Memorial, Indian Museum.\nDay 2: Howrah Bridge, Marble Palace.\nDay 3: Dakshineswar Kali Temple, Belur Math.\nDay 4: Kalighat Temple, South Park.\nDay 5: Visit Sundarbans National Park for a day trip and experience the mangrove forests.\n"
+        },
+        "ladakh": {
+            "1_day": "For a 1-day trip to Ladakh:\nVisit Leh - Explore the Leh Palace and the Shanti Stupa.\n",
+            "2_days": "For a 2-day trip to Ladakh:\nDay 1: Leh - Leh Palace, Shanti Stupa.\nDay 2: Visit Pangong Lake and enjoy the scenic beauty.\n",
+            "3_days": "For a 3-day trip to Ladakh:\nDay 1: Leh - Leh Palace, Shanti Stupa.\nDay 2: Pangong Lake - Explore and enjoy.\nDay 3: Visit Nubra Valley - Explore the sand dunes and monasteries.\n",
+            "4_days": "For a 4-day trip to Ladakh:\nDay 1: Leh - Leh Palace, Shanti Stupa.\nDay 2: Pangong Lake - Explore and enjoy.\nDay 3: Nubra Valley - Sand dunes, monasteries.\nDay 4: Visit the Magnetic Hill and the confluence of Indus and Zanskar rivers.\n",
+            "5_days": "For a 5-day trip to Ladakh:\nDay 1: Leh - Leh Palace, Shanti Stupa.\nDay 2: Pangong Lake - Explore and enjoy.\nDay 3: Nubra Valley - Sand dunes, monasteries.\nDay 4: Magnetic Hill, confluence of Indus and Zanskar rivers.\nDay 5: Explore the monasteries of Hemis and Thiksey.\n"
+        },
+        "mumbai": {
+            "1_day": "For a 1-day trip to Mumbai:\nVisit the Gateway of India, Marine Drive, and explore Colaba Causeway.\n",
+            "2_days": "For a 2-day trip to Mumbai:\nDay 1: Gateway of India, Marine Drive, Colaba Causeway.\nDay 2: Visit Elephanta Caves and explore the Chhatrapati Shivaji Maharaj Terminus.\n",
+            "3_days": "For a 3-day trip to Mumbai:\nDay 1: Gateway of India, Marine Drive, Colaba Causeway.\nDay 2: Elephanta Caves, Chhatrapati Shivaji Maharaj Terminus.\nDay 3: Explore the Siddhivinayak Temple and the Hanging Gardens.\n",
+            "4_days": "For a 4-day trip to Mumbai:\nDay 1: Gateway of India, Marine Drive, Colaba Causeway.\nDay 2: Elephanta Caves, Chhatrapati Shivaji Maharaj Terminus.\nDay 3: Siddhivinayak Temple, Hanging Gardens.\nDay 4: Visit the Sanjay Gandhi National Park and explore Kanheri Caves.\n",
+            "5_days": "For a 5-day trip to Mumbai:\nDay 1: Gateway of India, Marine Drive, Colaba Causeway.\nDay 2: Elephanta Caves, Chhatrapati Shivaji Maharaj Terminus.\nDay 3: Siddhivinayak Temple, Hanging Gardens.\nDay 4: Sanjay Gandhi National Park, Kanheri Caves.\nDay 5: Explore the vibrant local markets and enjoy the nightlife at Juhu Beach.\n"
+        },
+        "uttar_pradesh": {
+            "1_day": "For a 1-day trip to Uttar Pradesh:\nVisit Agra - Explore the Taj Mahal and Agra Fort.\n",
+            "2_days": "For a 2-day trip to Uttar Pradesh:\nDay 1: Agra - Taj Mahal, Agra Fort.\nDay 2: Varanasi - Enjoy the Ganga Aarti and explore the ghats.\n",
+            "3_days": "For a 3-day trip to Uttar Pradesh:\nDay 1: Agra - Taj Mahal, Agra Fort.\nDay 2: Varanasi - Ganga Aarti, ghats.\nDay 3: Lucknow - Visit the Bara Imambara and the Chota Imambara.\n",
+            "4_days": "For a 4-day trip to Uttar Pradesh:\nDay 1: Agra - Taj Mahal, Agra Fort.\nDay 2: Varanasi - Ganga Aarti, ghats.\nDay 3: Lucknow - Bara Imambara, Chota Imambara.\nDay 4: Prayagraj - Visit the Sangam and the Anand Bhavan.\n",
+            "5_days": "For a 5-day trip to Uttar Pradesh:\nDay 1: Agra - Taj Mahal, Agra Fort.\nDay 2: Varanasi - Ganga Aarti, ghats.\nDay 3: Lucknow - Bara Imambara, Chota Imambara.\nDay 4: Prayagraj - Sangam, Anand Bhavan.\nDay 5: Visit Kanpur - Explore the Kanpur Zoo and the Jajmau Archaeological Site.\n"
+        },
+        "sikkim": {
+            "1_day": "For a 1-day trip to Sikkim:\nVisit Gangtok - Explore MG Road, and visit the Enchey Monastery.\n",
+            "2_days": "For a 2-day trip to Sikkim:\nDay 1: Gangtok - MG Road, Enchey Monastery.\nDay 2: Tsomgo Lake - Visit the beautiful lake and the Baba Mandir.\n",
+            "3_days": "For a 3-day trip to Sikkim:\nDay 1: Gangtok - MG Road, Enchey Monastery.\nDay 2: Tsomgo Lake - Visit the lake, Baba Mandir.\nDay 3: Pelling - Explore Pemayangtse Monastery and enjoy views of Kanchenjunga.\n",
+            "4_days": "For a 4-day trip to Sikkim:\nDay 1: Gangtok - MG Road, Enchey Monastery.\nDay 2: Tsomgo Lake - Lake visit, Baba Mandir.\nDay 3: Pelling - Pemayangtse Monastery.\nDay 4: Yuksom - Explore Yuksom and its historical significance.\n",
+            "5_days": "For a 5-day trip to Sikkim:\nDay 1: Gangtok - MG Road, Enchey Monastery.\nDay 2: Tsomgo Lake - Lake visit, Baba Mandir.\nDay 3: Pelling - Pemayangtse Monastery.\nDay 4: Yuksom - Explore Yuksom.\nDay 5: North Sikkim - Visit Lachen and Lachung, and enjoy the scenic beauty.\n"
+        },
+        "tamil nadu": {
+            "1_day": "For a 1-day trip to Tamil Nadu:\nVisit Chennai - Explore Marina Beach, and visit Kapaleeshwarar Temple.\n",
+            "2_days": "For a 2-day trip to Tamil Nadu:\nDay 1: Chennai - Marina Beach, Kapaleeshwarar Temple.\nDay 2: Mahabalipuram - Visit the Shore Temple, and enjoy the beach.\n",
+            "3_days": "For a 3-day trip to Tamil Nadu:\nDay 1: Chennai - Marina Beach, Kapaleeshwarar Temple.\nDay 2: Mahabalipuram - Shore Temple, beach.\nDay 3: Kanchipuram - Explore the ancient temples and silk weaving industry.\n",
+            "4_days": "For a 4-day trip to Tamil Nadu:\nDay 1: Chennai - Marina Beach, Kapaleeshwarar Temple.\nDay 2: Mahabalipuram - Shore Temple, beach.\nDay 3: Kanchipuram - Ancient temples.\nDay 4: Madurai - Visit Meenakshi Temple and Thirumalai Nayakkar Palace.\n",
+            "5_days": "For a 5-day trip to Tamil Nadu:\nDay 1: Chennai - Marina Beach, Kapaleeshwarar Temple.\nDay 2: Mahabalipuram - Shore Temple, beach.\nDay 3: Kanchipuram - Ancient temples.\nDay 4: Madurai - Meenakshi Temple, Thirumalai Nayakkar Palace.\nDay 5: Rameswaram - Visit the Ramanathaswamy Temple and Dhanushkodi.\n"
+        },
+        "telangana": {
+            "1_day": "For a 1-day trip to Telangana:\nVisit Hyderabad - Explore Charminar and visit the Golconda Fort.\n",
+            "2_days": "For a 2-day trip to Telangana:\nDay 1: Hyderabad - Charminar, Golconda Fort.\nDay 2: Hyderabad - Visit the Salar Jung Museum and the Hussain Sagar Lake.\n",
+            "3_days": "For a 3-day trip to Telangana:\nDay 1: Hyderabad - Charminar, Golconda Fort.\nDay 2: Hyderabad - Salar Jung Museum, Hussain Sagar Lake.\nDay 3: Warangal - Explore the Warangal Fort, and visit the Thousand Pillar Temple.\n",
+            "4_days": "For a 4-day trip to Telangana:\nDay 1: Hyderabad - Charminar, Golconda Fort.\nDay 2: Hyderabad - Salar Jung Museum, Hussain Sagar Lake.\nDay 3: Warangal - Warangal Fort, Thousand Pillar Temple.\nDay 4: Kakatiya Temple Complex - Visit the temples and explore the historic sites.\n",
+            "5_days": "For a 5-day trip to Telangana:\nDay 1: Hyderabad - Charminar, Golconda Fort.\nDay 2: Hyderabad - Salar Jung Museum, Hussain Sagar Lake.\nDay 3: Warangal - Warangal Fort, Thousand Pillar Temple.\nDay 4: Kakatiya Temple Complex.\nDay 5: Pochampally - Explore the Pochampally village known for its traditional handloom weaving.\n"
+        },
+        "tripura": {
+            "1_day": "For a 1-day trip to Tripura:\nVisit Agartala - Explore the Ujjayanta Palace and the Tripura State Museum.\n",
+            "2_days": "For a 2-day trip to Tripura:\nDay 1: Agartala - Ujjayanta Palace, Tripura State Museum.\nDay 2: Visit the Neermahal Palace and the Jampui Hills.\n",
+            "3_days": "For a 3-day trip to Tripura:\nDay 1: Agartala - Ujjayanta Palace, Tripura State Museum.\nDay 2: Neermahal Palace, Jampui Hills.\nDay 3: Visit the Sepahijala Wildlife Sanctuary and explore the local wildlife.\n",
+            "4_days": "For a 4-day trip to Tripura:\nDay 1: Agartala - Ujjayanta Palace, Tripura State Museum.\nDay 2: Neermahal Palace, Jampui Hills.\nDay 3: Sepahijala Wildlife Sanctuary.\nDay 4: Visit the pilgrimage sites of Tripura - Tripura Sundari Temple and the Kunjaban Palace.\n",
+            "5_days": "For a 5-day trip to Tripura:\nDay 1: Agartala - Ujjayanta Palace, Tripura State Museum.\nDay 2: Neermahal Palace, Jampui Hills.\nDay 3: Sepahijala Wildlife Sanctuary.\nDay 4: Tripura Sundari Temple, Kunjaban Palace.\nDay 5: Explore the natural beauty of the Dumboor Lake and its surroundings.\n"
+        },
+        "west_bengal": {
+            "1_day": "For a 1-day trip to West Bengal:\nVisit Kolkata - Explore the Victoria Memorial and the Indian Museum.\n",
+            "2_days": "For a 2-day trip to West Bengal:\nDay 1: Kolkata - Victoria Memorial, Indian Museum.\nDay 2: Sundarbans - Explore the Sundarbans National Park and enjoy a boat tour.\n",
+            "3_days": "For a 3-day trip to West Bengal:\nDay 1: Kolkata - Victoria Memorial, Indian Museum.\nDay 2: Sundarbans - Sundarbans National Park, boat tour.\nDay 3: Darjeeling - Visit Tiger Hill for sunrise and explore the local markets.\n",
+            "4_days": "For a 4-day trip to West Bengal:\nDay 1: Kolkata - Victoria Memorial, Indian Museum.\nDay 2: Sundarbans - Sundarbans National Park, boat tour.\nDay 3: Darjeeling - Tiger Hill, local markets.\nDay 4: Kalimpong - Explore Kalimpong and visit the Zang Dhok Palri Phodang Monastery.\n",
+            "5_days": "For a 5-day trip to West Bengal:\nDay 1: Kolkata - Victoria Memorial, Indian Museum.\nDay 2: Sundarbans - Sundarbans National Park, boat tour.\nDay 3: Darjeeling - Tiger Hill, local markets.\nDay 4: Kalimpong - Zang Dhok Palri Phodang Monastery.\nDay 5: Visit the picturesque town of Shillong in Meghalaya, exploring the local attractions.\n"
+        },
+        "uttarakhand": {
+            "1_day": "For a 1-day trip to Uttarakhand:\nVisit Dehradun - Explore the Robber's Cave and the Forest Research Institute.\n",
+            "2_days": "For a 2-day trip to Uttarakhand:\nDay 1: Dehradun - Robber's Cave, Forest Research Institute.\nDay 2: Rishikesh - Enjoy the Ganga Aarti and visit the Laxman Jhula.\n",
+            "3_days": "For a 3-day trip to Uttarakhand:\nDay 1: Dehradun - Robber's Cave, Forest Research Institute.\nDay 2: Rishikesh - Ganga Aarti, Laxman Jhula.\nDay 3: Haridwar - Visit the Ganga Aarti at Har Ki Pauri and explore local temples.\n",
+            "4_days": "For a 4-day trip to Uttarakhand:\nDay 1: Dehradun - Robber's Cave, Forest Research Institute.\nDay 2: Rishikesh - Ganga Aarti, Laxman Jhula.\nDay 3: Haridwar - Ganga Aarti, temples.\nDay 4: Mussoorie - Explore Mall Road, Kempty Falls.\n",
+            "5_days": "For a 5-day trip to Uttarakhand:\nDay 1: Dehradun - Robber's Cave, Forest Research Institute.\nDay 2: Rishikesh - Ganga Aarti, Laxman Jhula.\nDay 3: Haridwar - Ganga Aarti, temples.\nDay 4: Mussoorie - Mall Road, Kempty Falls.\nDay 5: Nainital - Visit Naini Lake, Snow View Point.\n"
+        },
+        "nagaland": {
+            "1_day": "For a 1-day trip to Nagaland:\nExplore Kohima - Visit the Kohima War Cemetery, and the State Museum.\n",
+            "2_days": "For a 2-day trip to Nagaland:\nDay 1: Kohima - Kohima War Cemetery, State Museum.\nDay 2: Dimapur - Visit the Kachari Ruins and the Dimapur Jain Temple.\n",
+            "3_days": "For a 3-day trip to Nagaland:\nDay 1: Kohima - Kohima War Cemetery, State Museum.\nDay 2: Dimapur - Kachari Ruins, Dimapur Jain Temple.\nDay 3: Mokokchung - Explore Mokokchung Town, and visit Longkhum Village for its scenic beauty.\n",
+            "4_days": "For a 4-day trip to Nagaland:\nDay 1: Kohima - Kohima War Cemetery, State Museum.\nDay 2: Dimapur - Kachari Ruins, Dimapur Jain Temple.\nDay 3: Mokokchung - Mokokchung Town, Longkhum Village.\nDay 4: Wokha - Visit Wokha District and explore the beautiful landscape and traditional villages.\n",
+            "5_days": "For a 5-day trip to Nagaland:\nDay 1: Kohima - Kohima War Cemetery, State Museum.\nDay 2: Dimapur - Kachari Ruins, Dimapur Jain Temple.\nDay 3: Mokokchung - Mokokchung Town, Longkhum Village.\nDay 4: Wokha - Wokha District, traditional villages.\nDay 5: Mon - Visit Mon District, explore the culture of the Konyak tribe and scenic beauty.\n"
+        },
+        "odisha": {
+            "1_day": "For a 1-day trip to Odisha:\nExplore Bhubaneswar - Visit the Lingaraj Temple, Udayagiri and Khandagiri Caves.\n",
+            "2_days": "For a 2-day trip to Odisha:\nDay 1: Bhubaneswar - Lingaraj Temple, Udayagiri and Khandagiri Caves.\nDay 2: Puri - Visit the Jagannath Temple and relax at Puri Beach.\n",
+            "3_days": "For a 3-day trip to Odisha:\nDay 1: Bhubaneswar - Lingaraj Temple, Udayagiri and Khandagiri Caves.\nDay 2: Puri - Jagannath Temple, Puri Beach.\nDay 3: Konark - Explore the Sun Temple and enjoy the nearby Chandrabhaga Beach.\n",
+            "4_days": "For a 4-day trip to Odisha:\nDay 1: Bhubaneswar - Lingaraj Temple, Udayagiri and Khandagiri Caves.\nDay 2: Puri - Jagannath Temple, Puri Beach.\nDay 3: Konark - Sun Temple, Chandrabhaga Beach.\nDay 4: Chilika Lake - Enjoy a boat ride and spot migratory birds at Chilika Lake.\n",
+            "5_days": "For a 5-day trip to Odisha:\nDay 1: Bhubaneswar - Lingaraj Temple, Udayagiri and Khandagiri Caves.\nDay 2: Puri - Jagannath Temple, Puri Beach.\nDay 3: Konark - Sun Temple, Chandrabhaga Beach.\nDay 4: Chilika Lake - Boat ride, bird watching.\nDay 5: Raghurajpur - Explore the artisan village known for Pattachitra paintings and crafts.\n"
+        },
+        "punjab": {
+            "1_day": "For a 1-day trip to Punjab:\nVisit Amritsar - Explore the Golden Temple and Jallianwala Bagh.\n",
+            "2_days": "For a 2-day trip to Punjab:\nDay 1: Amritsar - Golden Temple, Jallianwala Bagh.\nDay 2: Chandigarh - Visit the Rock Garden, Sukhna Lake, and the Rose Garden.\n",
+            "3_days": "For a 3-day trip to Punjab:\nDay 1: Amritsar - Golden Temple, Jallianwala Bagh.\nDay 2: Chandigarh - Rock Garden, Sukhna Lake, Rose Garden.\nDay 3: Patiala - Visit Qila Mubarak, Sheesh Mahal, and the Baradari Garden.\n",
+            "4_days": "For a 4-day trip to Punjab:\nDay 1: Amritsar - Golden Temple, Jallianwala Bagh.\nDay 2: Chandigarh - Rock Garden, Sukhna Lake, Rose Garden.\nDay 3: Patiala - Qila Mubarak, Sheesh Mahal, Baradari Garden.\nDay 4: Ludhiana - Explore the Punjab Agricultural University Museum, and the Lodhi Fort.\n",
+            "5_days": "For a 5-day trip to Punjab:\nDay 1: Amritsar - Golden Temple, Jallianwala Bagh.\nDay 2: Chandigarh - Rock Garden, Sukhna Lake, Rose Garden.\nDay 3: Patiala - Qila Mubarak, Sheesh Mahal, Baradari Garden.\nDay 4: Ludhiana - Punjab Agricultural University Museum, Lodhi Fort.\nDay 5: Mohali - Visit the Fateh Burj and enjoy the local markets and eateries.\n"
+        },
+        "manipur": {
+            "1_day": "For a 1-day trip to Manipur:\nExplore Imphal - Visit the Kangla Fort, Ima Keithel (Women's Market), and the Shree Shree Govindaji Temple.\n",
+            "2_days": "For a 2-day trip to Manipur:\nDay 1: Imphal - Kangla Fort, Ima Keithel, Shree Shree Govindaji Temple.\nDay 2: Loktak Lake - Enjoy the scenic beauty of Loktak Lake and visit the floating phumdis and Keibul Lamjao National Park.\n",
+            "3_days": "For a 3-day trip to Manipur:\nDay 1: Imphal - Kangla Fort, Ima Keithel, Shree Shree Govindaji Temple.\nDay 2: Loktak Lake - Floating phumdis, Keibul Lamjao National Park.\nDay 3: Moirang - Visit the INA Memorial and the historic Moirang Park.\n",
+            "4_days": "For a 4-day trip to Manipur:\nDay 1: Imphal - Kangla Fort, Ima Keithel, Shree Shree Govindaji Temple.\nDay 2: Loktak Lake - Floating phumdis, Keibul Lamjao National Park.\nDay 3: Moirang - INA Memorial, Moirang Park.\nDay 4: Ukhrul - Explore the picturesque town of Ukhrul and visit the Shirui Hills, famous for Shirui Lily.\n",
+            "5_days": "For a 5-day trip to Manipur:\nDay 1: Imphal - Kangla Fort, Ima Keithel, Shree Shree Govindaji Temple.\nDay 2: Loktak Lake - Floating phumdis, Keibul Lamjao National Park.\nDay 3: Moirang - INA Memorial, Moirang Park.\nDay 4: Ukhrul - Shirui Hills, Shirui Lily.\nDay 5: Senapati - Discover the serene beauty of Senapati and visit the beautiful Dzuko Valley.\n"
+        },
+        "meghalaya": {
+            "1_day": "For a 1-day trip to Meghalaya:\nExplore Shillong - Visit Elephant Falls, Shillong Peak, and Ward's Lake.\n",
+            "2_days": "For a 2-day trip to Meghalaya:\nDay 1: Shillong - Elephant Falls, Shillong Peak, Ward's Lake.\nDay 2: Cherrapunjee - Visit Nohkalikai Falls, Mawsmai Cave, and Seven Sisters Falls.\n",
+            "3_days": "For a 3-day trip to Meghalaya:\nDay 1: Shillong - Elephant Falls, Shillong Peak, Ward's Lake.\nDay 2: Cherrapunjee - Nohkalikai Falls, Mawsmai Cave, Seven Sisters Falls.\nDay 3: Mawlynnong - Visit the cleanest village in Asia and see the Living Root Bridges.\n",
+            "4_days": "For a 4-day trip to Meghalaya:\nDay 1: Shillong - Elephant Falls, Shillong Peak, Ward's Lake.\nDay 2: Cherrapunjee - Nohkalikai Falls, Mawsmai Cave, Seven Sisters Falls.\nDay 3: Mawlynnong - Cleanest village, Living Root Bridges.\nDay 4: Dawki - Enjoy a boat ride on the Umngot River and explore the beautiful landscape.\n",
+            "5_days": "For a 5-day trip to Meghalaya:\nDay 1: Shillong - Elephant Falls, Shillong Peak, Ward's Lake.\nDay 2: Cherrapunjee - Nohkalikai Falls, Mawsmai Cave, Seven Sisters Falls.\nDay 3: Mawlynnong - Cleanest village, Living Root Bridges.\nDay 4: Dawki - Boat ride on Umngot River.\nDay 5: Nongriat - Trek to the Double Decker Living Root Bridge and enjoy the natural beauty.\n"
+        },
+        "mizoram": {
+            "1_day": "For a 1-day trip to Mizoram:\nExplore Aizawl - Visit the Mizoram State Museum, Vantawng Falls, and the Baktawng Village.\n",
+            "2_days": "For a 2-day trip to Mizoram:\nDay 1: Aizawl - Mizoram State Museum, Vantawng Falls, Baktawng Village.\nDay 2: Hmuifang - Visit Hmuifang Village and enjoy the scenic beauty of the surrounding hills.\n",
+            "3_days": "For a 3-day trip to Mizoram:\nDay 1: Aizawl - Mizoram State Museum, Vantawng Falls, Baktawng Village.\nDay 2: Hmuifang - Hmuifang Village and surrounding hills.\nDay 3: Phawngpui - Visit the Blue Mountain (Phawngpui) and enjoy the panoramic views.\n",
+            "4_days": "For a 4-day trip to Mizoram:\nDay 1: Aizawl - Mizoram State Museum, Vantawng Falls, Baktawng Village.\nDay 2: Hmuifang - Hmuifang Village and surrounding hills.\nDay 3: Phawngpui - Blue Mountain (Phawngpui), panoramic views.\nDay 4: Lunglei - Explore the Lunglei area and visit the Rungdil Wildlife Sanctuary.\n",
+            "5_days": "For a 5-day trip to Mizoram:\nDay 1: Aizawl - Mizoram State Museum, Vantawng Falls, Baktawng Village.\nDay 2: Hmuifang - Hmuifang Village and surrounding hills.\nDay 3: Phawngpui - Blue Mountain (Phawngpui), panoramic views.\nDay 4: Lunglei - Rungdil Wildlife Sanctuary.\nDay 5: Kolasib - Visit the picturesque town of Kolasib and explore its natural beauty and attractions.\n"
+        },
+        "maharashtra": {
+            "1_day": "For a 1-day trip to Maharashtra:\nExplore Mumbai - Visit Gateway of India, Marine Drive, and the Elephanta Caves.\n",
+            "2_days": "For a 2-day trip to Maharashtra:\nDay 1: Mumbai - Visit Gateway of India, Marine Drive, Elephanta Caves, and Chhatrapati Shivaji Maharaj Terminus.\nDay 2: Pune - Explore the Aga Khan Palace and Shaniwarwada Fort.\n",
+            "3_days": "For a 3-day trip to Maharashtra:\nDay 1: Mumbai - Gateway of India, Marine Drive, Elephanta Caves.\nDay 2: Pune - Aga Khan Palace, Shaniwarwada Fort.\nDay 3: Lonavala - Visit Bhushi Dam, Lion’s Point, and enjoy the scenic beauty.\n",
+            "4_days": "For a 4-day trip to Maharashtra:\nDay 1: Mumbai - Gateway of India, Marine Drive, Elephanta Caves.\nDay 2: Pune - Aga Khan Palace, Shaniwarwada Fort.\nDay 3: Lonavala - Bhushi Dam, Lion’s Point.\nDay 4: Aurangabad - Explore the Ajanta and Ellora Caves, and Bibi Ka Maqbara.\n",
+            "5_days": "For a 5-day trip to Maharashtra:\nDay 1: Mumbai - Gateway of India, Marine Drive, Elephanta Caves.\nDay 2: Pune - Aga Khan Palace, Shaniwarwada Fort.\nDay 3: Lonavala - Bhushi Dam, Lion’s Point.\nDay 4: Aurangabad - Ajanta and Ellora Caves, Bibi Ka Maqbara.\nDay 5: Alibaug - Relax on Alibaug Beach and explore the Alibaug Fort.\n"
+        },
+        "madhya_pradesh": {
+            "1_day": "For a 1-day trip to Madhya Pradesh:\nVisit Bhopal - Explore the beautiful Upper Lake, the historic Sanchi Stupa, and the impressive Bhimbetka Caves.\n",
+            "2_days": "For a 2-day trip to Madhya Pradesh:\nDay 1: Bhopal - Visit Upper Lake, Sanchi Stupa, and Bhimbetka Caves.\nDay 2: Ujjain - Explore the Mahakaleshwar Temple and the bustling local markets.\n",
+            "3_days": "For a 3-day trip to Madhya Pradesh:\nDay 1: Bhopal - Visit Upper Lake, Sanchi Stupa, and Bhimbetka Caves.\nDay 2: Ujjain - Explore Mahakaleshwar Temple and local markets.\nDay 3: Khajuraho - Discover the famous Khajuraho Temples known for their intricate sculptures and carvings.\n",
+            "4_days": "For a 4-day trip to Madhya Pradesh:\nDay 1: Bhopal - Visit Upper Lake, Sanchi Stupa, and Bhimbetka Caves.\nDay 2: Ujjain - Explore Mahakaleshwar Temple and local markets.\nDay 3: Khajuraho - Discover the Khajuraho Temples.\nDay 4: Bandhavgarh National Park - Enjoy a wildlife safari in Bandhavgarh National Park and spot the majestic Bengal Tiger.\n",
+            "5_days": "For a 5-day trip to Madhya Pradesh:\nDay 1: Bhopal - Visit Upper Lake, Sanchi Stupa, and Bhimbetka Caves.\nDay 2: Ujjain - Explore Mahakaleshwar Temple and local markets.\nDay 3: Khajuraho - Discover the Khajuraho Temples.\nDay 4: Bandhavgarh National Park - Enjoy a wildlife safari and spot the Bengal Tiger.\nDay 5: Jabalpur - Explore the stunning Marble Rocks at Bhedaghat and the beautiful Dhuandhar Falls.\n"
+        },
+        "karnataka": {
+            "1_day": "For a 1-day trip to Karnataka:\nVisit Bengaluru - Explore the beautiful Lalbagh Botanical Garden, Bangalore Palace, and the bustling MG Road.\n",
+            "2_days": "For a 2-day trip to Karnataka:\nDay 1: Bengaluru - Visit Lalbagh Botanical Garden, Bangalore Palace, and MG Road.\nDay 2: Mysuru - Explore Mysore Palace, Chamundi Hill, and the beautiful Brindavan Gardens.\n",
+            "3_days": "For a 3-day trip to Karnataka:\nDay 1: Bengaluru - Visit Lalbagh Botanical Garden, Bangalore Palace, and MG Road.\nDay 2: Mysuru - Explore Mysore Palace, Chamundi Hill, and Brindavan Gardens.\nDay 3: Coorg - Enjoy the scenic beauty of Coffee Plantations, Abbey Falls, and the Raja’s Seat.\n",
+            "4_days": "For a 4-day trip to Karnataka:\nDay 1: Bengaluru - Visit Lalbagh Botanical Garden, Bangalore Palace, and MG Road.\nDay 2: Mysuru - Explore Mysore Palace, Chamundi Hill, and Brindavan Gardens.\nDay 3: Coorg - Enjoy Coffee Plantations, Abbey Falls, and Raja’s Seat.\nDay 4: Hampi - Explore the ruins of Hampi, including the Virupaksha Temple and Vittala Temple Complex.\n",
+            "5_days": "For a 5-day trip to Karnataka:\nDay 1: Bengaluru - Visit Lalbagh Botanical Garden, Bangalore Palace, and MG Road.\nDay 2: Mysuru - Explore Mysore Palace, Chamundi Hill, and Brindavan Gardens.\nDay 3: Coorg - Enjoy Coffee Plantations, Abbey Falls, and Raja’s Seat.\nDay 4: Hampi - Explore the ruins of Hampi, including the Virupaksha Temple and Vittala Temple Complex.\nDay 5: Gokarna - Relax at Om Beach, Kudle Beach, and explore the Mahabaleshwar Temple.\n"
+        },
+        "jharkhand": {
+            "1_day": "For a 1-day trip to Jharkhand:\nVisit Ranchi - Explore the scenic beauty of Jagannath Temple, Ranchi Lake, and the beautiful Hundru Falls.\n",
+            "2_days": "For a 2-day trip to Jharkhand:\nDay 1: Ranchi - Visit Jagannath Temple, Ranchi Lake, and Hundru Falls.\nDay 2: Jamshedpur - Explore Jubilee Park, Tata Steel Zoological Park, and the beautiful Dimna Lake.\n",
+            "3_days": "For a 3-day trip to Jharkhand:\nDay 1: Ranchi - Explore Jagannath Temple, Ranchi Lake, and Hundru Falls.\nDay 2: Jamshedpur - Visit Jubilee Park, Tata Steel Zoological Park, and Dimna Lake.\nDay 3: Bokaro - Visit the beautiful Bokaro Steel City Park, and the nearby Garga Dam for a relaxing day out.\n",
+            "4_days": "For a 4-day trip to Jharkhand:\nDay 1: Ranchi - Visit Jagannath Temple, Ranchi Lake, and Hundru Falls.\nDay 2: Jamshedpur - Explore Jubilee Park, Tata Steel Zoological Park, and Dimna Lake.\nDay 3: Bokaro - Visit Bokaro Steel City Park and Garga Dam.\nDay 4: Hazaribagh - Explore the Hazaribagh National Park and enjoy the scenic beauty of the area.\n",
+            "5_days": "For a 5-day trip to Jharkhand:\nDay 1: Ranchi - Visit Jagannath Temple, Ranchi Lake, and Hundru Falls.\nDay 2: Jamshedpur - Explore Jubilee Park, Tata Steel Zoological Park, and Dimna Lake.\nDay 3: Bokaro - Visit Bokaro Steel City Park and Garga Dam.\nDay 4: Hazaribagh - Explore Hazaribagh National Park.\nDay 5: Deoghar - Visit the famous Baidyanath Temple, and explore the nearby Satsanga Ashram and Naulakha Mandir.\n"
+        },
+        "himachal_pradesh": {
+            "1_day": "For a 1-day trip to Himachal Pradesh:\nVisit Shimla - Explore The Ridge, Mall Road, and the Jakhu Temple for a quick but scenic experience.\n",
+            "2_days": "For a 2-day trip to Himachal Pradesh:\nDay 1: Shimla - Visit The Ridge, Mall Road, and Jakhu Temple.\nDay 2: Kufri - Enjoy the scenic views, and if you like adventure, try some skiing or horse riding.\n",
+            "3_days": "For a 3-day trip to Himachal Pradesh:\nDay 1: Shimla - Explore The Ridge, Mall Road, and Jakhu Temple.\nDay 2: Kufri - Enjoy skiing or horse riding, and visit the Kufri Fun World.\nDay 3: Chail - Explore Chail Palace, the highest cricket ground, and enjoy the tranquil surroundings.\n",
+            "4_days": "For a 4-day trip to Himachal Pradesh:\nDay 1: Shimla - Visit The Ridge, Mall Road, and Jakhu Temple.\nDay 2: Kufri - Enjoy the scenic beauty and adventure activities.\nDay 3: Chail - Explore Chail Palace and the surrounding areas.\nDay 4: Solan - Visit the Mohan Shakti National Heritage Park and enjoy the views from the Monkey Point in Kasauli.\n",
+            "5_days": "For a 5-day trip to Himachal Pradesh:\nDay 1: Shimla - Explore The Ridge, Mall Road, and Jakhu Temple.\nDay 2: Kufri - Enjoy skiing, horse riding, and Kufri Fun World.\nDay 3: Chail - Visit Chail Palace and the surrounding area.\nDay 4: Solan - Visit the Mohan Shakti National Heritage Park and Monkey Point in Kasauli.\nDay 5: Manali - Explore Hadimba Temple, Vashisht Hot Springs, and take in the scenic beauty of Rohtang Pass.\n"
+        },
+        "haryana": {
+            "1_day": "For a 1-day trip to Haryana:\nVisit Kurukshetra - Explore the Brahma Sarovar, Jyotisar (where the Bhagavad Gita was narrated), and the Kurukshetra Panorama and Science Centre.\n",
+            "2_days": "For a 2-day trip to Haryana:\nDay 1: Kurukshetra - Visit Brahma Sarovar, Jyotisar, and the Kurukshetra Panorama and Science Centre.\nDay 2: Panipat - Explore the Panipat Museum, the historic battlegrounds, and the Kabuli Bagh Mosque.\n",
+            "3_days": "For a 3-day trip to Haryana:\nDay 1: Kurukshetra - Explore Brahma Sarovar, Jyotisar, and the Kurukshetra Panorama and Science Centre.\nDay 2: Panipat - Visit the Panipat Museum, battlegrounds, and Kabuli Bagh Mosque.\nDay 3: Sultanpur National Park - Enjoy birdwatching and the natural surroundings at this famous bird sanctuary.\n",
+            "4_days": "For a 4-day trip to Haryana:\nDay 1: Kurukshetra - Visit Brahma Sarovar, Jyotisar, and the Kurukshetra Panorama and Science Centre.\nDay 2: Panipat - Explore the Panipat Museum, battlegrounds, and Kabuli Bagh Mosque.\nDay 3: Sultanpur National Park - Birdwatching and nature walks.\nDay 4: Morni Hills - Enjoy trekking, boating, and scenic views in this serene hill station.\n",
+            "5_days": "For a 5-day trip to Haryana:\nDay 1: Kurukshetra - Explore Brahma Sarovar, Jyotisar, and the Kurukshetra Panorama and Science Centre.\nDay 2: Panipat - Visit the Panipat Museum, historic battlegrounds, and Kabuli Bagh Mosque.\nDay 3: Sultanpur National Park - Birdwatching and natural exploration.\nDay 4: Morni Hills - Trekking, boating, and relaxation.\nDay 5: Sohna - Visit the Sohna hot springs, enjoy a rejuvenating bath, and explore the ancient Shiva temple.\n"
+        },
+        "gujarat": {
+            "1_day": "For a 1-day trip to Gujarat:\nVisit Ahmedabad - Explore the Sabarmati Ashram, admire the architecture of Sidi Saiyyed Mosque, and stroll along the Sabarmati Riverfront.\n",
+            "2_days": "For a 2-day trip to Gujarat:\nDay 1: Ahmedabad - Visit Sabarmati Ashram, Sidi Saiyyed Mosque, and Sabarmati Riverfront.\nDay 2: Visit the UNESCO World Heritage site Rani ki Vav in Patan and the Sun Temple in Modhera.\n",
+            "3_days": "For a 3-day trip to Gujarat:\nDay 1: Ahmedabad - Explore Sabarmati Ashram, Sidi Saiyyed Mosque, and Sabarmati Riverfront.\nDay 2: Patan and Modhera - Visit Rani ki Vav and the Sun Temple.\nDay 3: Visit Gir National Park - Experience a wildlife safari and spot the Asiatic lions.\n",
+            "4_days": "For a 4-day trip to Gujarat:\nDay 1: Ahmedabad - Visit Sabarmati Ashram, Sidi Saiyyed Mosque, and Sabarmati Riverfront.\nDay 2: Patan and Modhera - Explore Rani ki Vav and the Sun Temple.\nDay 3: Gir National Park - Enjoy a wildlife safari and explore the flora and fauna.\nDay 4: Somnath - Visit the Somnath Temple and enjoy the scenic coastal views.\n",
+            "5_days": "For a 5-day trip to Gujarat:\nDay 1: Ahmedabad - Explore Sabarmati Ashram, Sidi Saiyyed Mosque, and Sabarmati Riverfront.\nDay 2: Patan and Modhera - Visit Rani ki Vav and the Sun Temple.\nDay 3: Gir National Park - Wildlife safari and nature exploration.\nDay 4: Somnath - Visit the Somnath Temple and relax by the coast.\nDay 5: Rann of Kutch - Explore the vast white salt desert and experience the cultural richness of the region.\n"
+        },
+        "chhattisgarh": {
+            "1_day": "For a 1-day trip to Chhattisgarh:\nVisit Raipur - Explore the Mahant Ghasidas Memorial Museum and enjoy a stroll at Marine Drive along Telibandha Lake.\n",
+            "2_days": "For a 2-day trip to Chhattisgarh:\nDay 1: Raipur - Visit Mahant Ghasidas Memorial Museum and Marine Drive.\nDay 2: Sirpur - Explore the ancient Laxman Temple, Surang Tila, and the archaeological ruins.\n",
+            "3_days": "For a 3-day trip to Chhattisgarh:\nDay 1: Raipur - Explore Mahant Ghasidas Memorial Museum and Marine Drive.\nDay 2: Sirpur - Visit Laxman Temple, Surang Tila, and archaeological ruins.\nDay 3: Barnawapara Wildlife Sanctuary - Enjoy a jungle safari and spot diverse wildlife.\n",
+            "4_days": "For a 4-day trip to Chhattisgarh:\nDay 1: Raipur - Visit Mahant Ghasidas Memorial Museum and Marine Drive.\nDay 2: Sirpur - Explore Laxman Temple, Surang Tila, and archaeological ruins.\nDay 3: Barnawapara Wildlife Sanctuary - Jungle safari and wildlife exploration.\nDay 4: Chitrakote Falls - Visit the 'Niagara of India' and enjoy the scenic beauty of this magnificent waterfall.\n",
+            "5_days": "For a 5-day trip to Chhattisgarh:\nDay 1: Raipur - Explore Mahant Ghasidas Memorial Museum and Marine Drive.\nDay 2: Sirpur - Visit Laxman Temple, Surang Tila, and archaeological ruins.\nDay 3: Barnawapara Wildlife Sanctuary - Jungle safari and wildlife exploration.\nDay 4: Chitrakote Falls - Enjoy the beauty of Chitrakote Falls, boating, and photography.\nDay 5: Kanger Valley National Park - Explore caves, waterfalls, and diverse flora and fauna.\n"
+        },
+        "bihar": {
+            "1_day": "For a 1-day trip to Bihar:\nVisit Bodh Gaya - Explore the Mahabodhi Temple and the Bodhi Tree where Buddha attained enlightenment.\n",
+            "2_days": "For a 2-day trip to Bihar:\nDay 1: Bodh Gaya - Visit Mahabodhi Temple, Bodhi Tree, and Great Buddha Statue.\nDay 2: Nalanda - Explore the ruins of Nalanda University and visit the Nalanda Archaeological Museum.\n",
+            "3_days": "For a 3-day trip to Bihar:\nDay 1: Bodh Gaya - Visit Mahabodhi Temple, Bodhi Tree, and Great Buddha Statue.\nDay 2: Nalanda - Explore Nalanda University ruins, Nalanda Archaeological Museum, and Rajgir - visit Vulture's Peak and Japanese Peace Pagoda.\nDay 3: Patna - Visit Patna Museum, Golghar, and Gandhi Maidan.\n",
+            "4_days": "For a 4-day trip to Bihar:\nDay 1: Bodh Gaya - Visit Mahabodhi Temple, Bodhi Tree, and Great Buddha Statue.\nDay 2: Nalanda - Explore Nalanda University ruins, Nalanda Archaeological Museum, Rajgir - Vulture's Peak, Japanese Peace Pagoda.\nDay 3: Patna - Visit Patna Museum, Golghar, Gandhi Maidan, and Takht Sri Patna Sahib.\nDay 4: Vaishali - Explore the historical ruins of Vaishali, visit the Ashokan Pillar and Buddha Stupa.\n",
+            "5_days": "For a 5-day trip to Bihar:\nDay 1: Bodh Gaya - Visit Mahabodhi Temple, Bodhi Tree, and Great Buddha Statue.\nDay 2: Nalanda - Explore Nalanda University ruins, Nalanda Archaeological Museum, Rajgir - Vulture's Peak, Japanese Peace Pagoda.\nDay 3: Patna - Visit Patna Museum, Golghar, Gandhi Maidan, Takht Sri Patna Sahib.\nDay 4: Vaishali - Explore Vaishali ruins, Ashokan Pillar, Buddha Stupa.\nDay 5: Bhagalpur - Visit Vikramshila University ruins and enjoy a boat ride on the Ganges.\n"
+        },
+        "assam": {
+            "1_day": "For a 1-day trip to Assam:\nVisit Guwahati - Explore the Kamakhya Temple and take a boat ride on the Brahmaputra River.\n",
+            "2_days": "For a 2-day trip to Assam:\nDay 1: Guwahati - Visit Kamakhya Temple, Umananda Temple, and Brahmaputra River cruise.\nDay 2: Kaziranga - Take an early morning safari in Kaziranga National Park to see the one-horned rhinoceros.\n",
+            "3_days": "For a 3-day trip to Assam:\nDay 1: Guwahati - Visit Kamakhya Temple, Umananda Temple, Brahmaputra River cruise.\nDay 2: Kaziranga - Morning safari in Kaziranga National Park, visit the Orchid Park.\nDay 3: Majuli - Explore the world's largest river island, Majuli, and its unique Vaishnavite culture.\n",
+            "4_days": "For a 4-day trip to Assam:\nDay 1: Guwahati - Visit Kamakhya Temple, Umananda Temple, Brahmaputra River cruise.\nDay 2: Kaziranga - Morning safari in Kaziranga National Park, visit the Orchid Park.\nDay 3: Majuli - Explore Majuli Island, visit Satras (monasteries) and learn about the local culture.\nDay 4: Sivasagar - Visit the historical sites of Sivasagar, including Rang Ghar, Talatal Ghar, and Sivasagar Lake.\n",
+            "5_days": "For a 5-day trip to Assam:\nDay 1: Guwahati - Visit Kamakhya Temple, Umananda Temple, Brahmaputra River cruise.\nDay 2: Kaziranga - Morning safari in Kaziranga National Park, visit the Orchid Park.\nDay 3: Majuli - Explore Majuli Island, visit Satras, interact with local artisans.\nDay 4: Sivasagar - Explore historical sites like Rang Ghar, Talatal Ghar, Sivasagar Lake.\nDay 5: Tezpur - Discover the ancient city of Tezpur, visit Agnigarh Hill and Mahabhairav Temple.\n"
+        },
+        "arunachal_pradesh": {
+            "1_day": "For a 1-day trip to Arunachal Pradesh:\nVisit Itanagar - Explore the Itanagar Fort and the Jawaharlal Nehru State Museum.\n",
+            "2_days": "For a 2-day trip to Arunachal Pradesh:\nDay 1: Itanagar - Visit Itanagar Fort and Jawaharlal Nehru State Museum.\nDay 2: Ziro - Explore the Ziro Valley and the Apatani tribal villages.\n",
+            "3_days": "For a 3-day trip to Arunachal Pradesh:\nDay 1: Itanagar - Visit Itanagar Fort and Jawaharlal Nehru State Museum.\nDay 2: Ziro - Explore Ziro Valley, Apatani tribal villages.\nDay 3: Tawang - Visit Tawang Monastery and enjoy the beautiful views of the Himalayas.\n",
+            "4_days": "For a 4-day trip to Arunachal Pradesh:\nDay 1: Itanagar - Visit Itanagar Fort and Jawaharlal Nehru State Museum.\nDay 2: Ziro - Explore Ziro Valley, Apatani tribal villages.\nDay 3: Tawang - Visit Tawang Monastery, Sela Pass, and enjoy the scenic beauty.\nDay 4: Bum La Pass - Take a day trip to Bum La Pass and visit the Sangestar Tso Lake.\n",
+            "5_days": "For a 5-day trip to Arunachal Pradesh:\nDay 1: Itanagar - Visit Itanagar Fort and Jawaharlal Nehru State Museum.\nDay 2: Ziro - Explore Ziro Valley, Apatani tribal villages.\nDay 3: Tawang - Visit Tawang Monastery, Sela Pass, and enjoy the scenic beauty.\nDay 4: Bum La Pass - Take a day trip to Bum La Pass, visit Sangestar Tso Lake.\nDay 5: Dirang - Explore Dirang Dzong, hot springs, and the beautiful Dirang Valley.\n"
+        },
+        "andhra_pradesh": {
+            "1_day": "For a 1-day trip to Andhra Pradesh:\nVisit Tirupati - Explore the famous Tirumala Venkateswara Temple and take a short tour of the nearby Papavinasam Theertham.\n",
+            "2_days": "For a 2-day trip to Andhra Pradesh:\nDay 1: Tirupati - Visit Tirumala Venkateswara Temple and Kapila Theertham.\nDay 2: Srikalahasti - Explore Srikalahasti Temple and enjoy the scenic surroundings.\n",
+            "3_days": "For a 3-day trip to Andhra Pradesh:\nDay 1: Tirupati - Visit Tirumala Venkateswara Temple and Kapila Theertham.\nDay 2: Srikalahasti - Visit Srikalahasti Temple, explore the scenic surroundings, and visit Chandragiri Fort.\nDay 3: Nellore - Explore Ranganatha Temple and Mypadu Beach.\n",
+            "4_days": "For a 4-day trip to Andhra Pradesh:\nDay 1: Tirupati - Visit Tirumala Venkateswara Temple, Kapila Theertham.\nDay 2: Srikalahasti - Explore Srikalahasti Temple, Chandragiri Fort.\nDay 3: Nellore - Visit Ranganatha Temple, Mypadu Beach.\nDay 4: Vishakhapatnam - Explore RK Beach, Kailasagiri, and the INS Kursura Submarine Museum.\n",
+            "5_days": "For a 5-day trip to Andhra Pradesh:\nDay 1: Tirupati - Visit Tirumala Venkateswara Temple, Kapila Theertham.\nDay 2: Srikalahasti - Explore Srikalahasti Temple, Chandragiri Fort.\nDay 3: Nellore - Visit Ranganatha Temple, Mypadu Beach.\nDay 4: Vishakhapatnam - Explore RK Beach, Kailasagiri, INS Kursura Submarine Museum.\nDay 5: Araku Valley - Enjoy the scenic beauty, Borra Caves, and the Tribal Museum.\n"
+        },
+        "rajasthan": {
+            "1_day": "For a 1-day trip to Rajasthan, I suggest visiting Jaipur:\nVisit Amber Fort and Hawa Mahal.\n",
+            "2_days": "For a 2-day trip to Rajasthan:\nDay 1: Explore Jaipur - Visit Amber Fort, City Palace, Hawa Mahal.\nDay 2: Head to Udaipur - Enjoy a boat ride on Lake Pichola, visit Jag Mandir.\n",
+            "3_days": "For a 3-day trip to Rajasthan:\nDay 1: Explore Jaipur - Visit Amber Fort, City Palace, Hawa Mahal.\nDay 2: Head to Udaipur - Enjoy a boat ride on Lake Pichola, visit Jag Mandir.\nDay 3: Discover Jaisalmer - Explore Jaisalmer Fort, enjoy a desert safari at Sam Sand Dunes.\n",
+            "4_days": "For a 4-day trip to Rajasthan:\nDay 1: Jaipur - Amber Fort, City Palace, Hawa Mahal.\nDay 2: Jaipur - Jantar Mantar, local markets.\nDay 3: Udaipur - Lake Pichola, Jag Mandir.\nDay 4: Jaisalmer - Jaisalmer Fort, Patwon Ki Haveli.\n",
+            "5_days": "For a 5-day trip to Rajasthan:\nDay 1: Jaipur - Amber Fort, City Palace, Hawa Mahal.\nDay 2: Jaipur - Jantar Mantar, local markets.\nDay 3: Udaipur - Lake Pichola, Jag Mandir.\nDay 4: Jaisalmer - Jaisalmer Fort, Patwon Ki Haveli.\nDay 5: Jaisalmer - Sam Sand Dunes, Desert Safari.\n"
+        },
+        "delhi": {
+            "1_day": "For a 1-day trip to Delhi:\nVisit Red Fort, Qutub Minar, and India Gate.\n",
+            "2_days": "For a 2-day trip to Delhi:\nDay 1: Explore Old Delhi - Red Fort, Jama Masjid, Chandni Chowk.\nDay 2: Explore New Delhi - India Gate, Qutub Minar, Humayun's Tomb.\n",
+            "3_days": "For a 3-day trip to Delhi:\nDay 1: Old Delhi - Red Fort, Jama Masjid, Chandni Chowk.\nDay 2: New Delhi - India Gate, Qutub Minar, Humayun's Tomb.\nDay 3: Explore Delhi's markets - Dilli Haat, Connaught Place.\n",
+            "4_days": "For a 4-day trip to Delhi:\nDay 1: Old Delhi - Red Fort, Jama Masjid, Chandni Chowk.\nDay 2: New Delhi - India Gate, Qutub Minar, Humayun's Tomb.\nDay 3: Markets - Dilli Haat, Connaught Place.\nDay 4: Day trip to Agra - Visit Taj Mahal and Agra Fort.\n",
+            "5_days": "For a 5-day trip to Delhi:\nDay 1: Old Delhi - Red Fort, Jama Masjid, Chandni Chowk.\nDay 2: New Delhi - India Gate, Qutub Minar, Humayun's Tomb.\nDay 3: Markets - Dilli Haat, Connaught Place.\nDay 4: Day trip to Agra - Visit Taj Mahal and Agra Fort.\nDay 5: Day trip to Jaipur - Explore Amber Fort and Hawa Mahal.\n"
+        },
+        "goa": {
+            "1_day": "For a 1-day trip to Goa:\nRelax at Baga Beach or Anjuna Beach.\n",
+            "2_days": "For a 2-day trip to Goa:\nDay 1: North Goa - Baga Beach, Anjuna Beach.\nDay 2: Old Goa - Basilica of Bom Jesus, Se Cathedral.\n",
+            "3_days": "For a 3-day trip to Goa:\nDay 1: North Goa - Baga Beach, Anjuna Beach.\nDay 2: Old Goa - Basilica of Bom Jesus, Se Cathedral.\nDay 3: South Goa - Palolem Beach, Dudhsagar Waterfalls.\n",
+            "4_days": "For a 4-day trip to Goa:\nDay 1: North Goa - Baga Beach, Anjuna Beach.\nDay 2: Old Goa - Basilica of Bom Jesus, Se Cathedral.\nDay 3: South Goa - Palolem Beach, Dudhsagar Waterfalls.\nDay 4: Explore Dudhsagar Waterfalls and nearby attractions.\n",
+            "5_days": "For a 5-day trip to Goa:\nDay 1: North Goa - Baga Beach, Anjuna Beach.\nDay 2: Old Goa - Basilica of Bom Jesus, Se Cathedral.\nDay 3: South Goa - Palolem Beach, Dudhsagar Waterfalls.\nDay 4: Explore Dudhsagar Waterfalls and nearby attractions.\nDay 5: Enjoy local markets and nightlife.\n"
+        },
+        "jammu and kashmir": {
+            "1_day": "For a 1-day trip to Kashmir:\nVisit Srinagar - Enjoy a Shikara ride on Dal Lake and explore Mughal Gardens.\n",
+            "2_days": "For a 2-day trip to Kashmir:\nDay 1: Srinagar - Shikara ride on Dal Lake, Mughal Gardens.\nDay 2: Gulmarg - Enjoy the scenic beauty and take a cable car ride.\n",
+            "3_days": "For a 3-day trip to Kashmir:\nDay 1: Srinagar - Shikara ride on Dal Lake, Mughal Gardens.\nDay 2: Gulmarg - Scenic beauty, cable car ride.\nDay 3: Pahalgam - Explore the beautiful meadows and Betaab Valley.\n",
+            "4_days": "For a 4-day trip to Kashmir:\nDay 1: Srinagar - Shikara ride on Dal Lake, Mughal Gardens.\nDay 2: Gulmarg - Scenic beauty, cable car ride.\nDay 3: Pahalgam - Explore meadows, Betaab Valley.\nDay 4: Explore Aru Valley and Baisaran.\n",
+            "5_days": "For a 5-day trip to Kashmir:\nDay 1: Srinagar - Shikara ride on Dal Lake, Mughal Gardens.\nDay 2: Gulmarg - Scenic beauty, cable car ride.\nDay 3: Pahalgam - Explore meadows, Betaab Valley.\nDay 4: Aru Valley and Baisaran.\nDay 5: Visit Sonamarg - Enjoy the beautiful landscape and Thajiwas Glacier.\n"
+        },
+        "kerala": {
+            "1_day": "For a 1-day trip to Kerala:\nVisit Kochi - Explore Fort Kochi and Mattancherry Palace.\n",
+            "2_days": "For a 2-day trip to Kerala:\nDay 1: Kochi - Explore Fort Kochi and Mattancherry Palace.\nDay 2: Alleppey - Enjoy a houseboat ride in the backwaters.\n",
+            "3_days": "For a 3-day trip to Kerala:\nDay 1: Kochi - Explore Fort Kochi and Mattancherry Palace.\nDay 2: Alleppey - Houseboat ride in the backwaters.\nDay 3: Munnar - Visit tea plantations and enjoy the scenic beauty.\n",
+            "4_days": "For a 4-day trip to Kerala:\nDay 1: Kochi - Explore Fort Kochi and Mattancherry Palace.\nDay 2: Alleppey - Houseboat ride in the backwaters.\nDay 3: Munnar - Visit tea plantations, Eravikulam National Park.\nDay 4: Thekkady - Explore Periyar Wildlife Sanctuary.\n",
+            "5_days": "For a 5-day trip to Kerala:\nDay 1: Kochi - Explore Fort Kochi and Mattancherry Palace.\nDay 2: Alleppey - Houseboat ride in the backwaters.\nDay 3: Munnar - Visit tea plantations, Eravikulam National Park.\nDay 4: Thekkady - Explore Periyar Wildlife Sanctuary.\nDay 5: Kovalam - Relax at the beach.\n"
+        },
+        "tamil_nadu": {
+            "1_day": "For a 1-day trip to Tamil Nadu:\nVisit Chennai - Explore Marina Beach and Kapaleeshwarar Temple.\n",
+            "2_days": "For a 2-day trip to Tamil Nadu:\nDay 1: Chennai - Explore Marina Beach, Kapaleeshwarar Temple.\nDay 2: Mahabalipuram - Visit Shore Temple and Arjuna's Penance.\n",
+            "3_days": "For a 3-day trip to Tamil Nadu:\nDay 1: Chennai - Explore Marina Beach, Kapaleeshwarar Temple.\nDay 2: Mahabalipuram - Visit Shore Temple and Arjuna's Penance.\nDay 3: Pondicherry - Explore French Quarter, Auroville.\n",
+            "4_days": "For a 4-day trip to Tamil Nadu:\nDay 1: Chennai - Explore Marina Beach, Kapaleeshwarar Temple.\nDay 2: Mahabalipuram - Shore Temple, Arjuna's Penance.\nDay 3: Pondicherry - French Quarter, Auroville.\nDay 4: Madurai - Visit Meenakshi Temple.\n",
+            "5_days": "For a 5-day trip to Tamil Nadu:\nDay 1: Chennai - Explore Marina Beach, Kapaleeshwarar Temple.\nDay 2: Mahabalipuram - Shore Temple, Arjuna's Penance.\nDay 3: Pondicherry - French Quarter, Auroville.\nDay 4: Madurai - Visit Meenakshi Temple.\nDay 5: Rameswaram - Explore Ramanathaswamy Temple and Dhanushkodi.\n"
+        }
+        
+    },
+    "default": "I'm sorry, I didn't understand that. Could you please rephrase your question?",
+    "farewell": "Have a great day! If you need more help, just ask.",
+    "travel_sites": [
+        "https://www.booking.com",
+        "https://www.expedia.com",
+        "https://www.tripadvisor.com",
+        "https://www.trivago.com",
+        "https://www.yelp.com"
+    ],
+    "tips": [
+        "Make sure to book your accommodation in advance.",
+        "Check the weather forecast before you travel.",
+        "Carry a reusable water bottle to stay hydrated.",
+        "Keep a copy of your important documents.",
+        "Explore local cuisine and try new dishes."
+    ]
+}

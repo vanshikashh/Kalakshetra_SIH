@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - India's Cultural Heritage Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Base styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #5e3020, #e9e1cc);
+            color: #FFF;
+            overflow-x: hidden;
+        }
+
+        /* Header section */
+        .header {
+            padding: 70px 20px;
+            text-align: center;
+            position: relative;
+            color: #3b1717;
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        /* Container styling */
+        .container {
+            background-color: whitesmoke;
+            padding: 40px;
+            margin: 60px auto;
+            max-width: 80%;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+            color: #3f2e2e;
+            transition: transform 0.6s ease, box-shadow 0.6s ease;
+        }
+
+        .container h1 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    color: rgba(95, 2, 2); /* Accent color or any color you prefer */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center-align the heading */
+    text-transform: uppercase; /* Optional: make text uppercase */
+    letter-spacing: 2px; /* Optional: spacing between letters */
+    animation: fadeIn 1s ease-in-out; /* Animation effect */
+}
+
+
+        .container:hover {
+            transform: translateY(-20px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .container:before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            background-color: rgba(128, 0, 0, 0.4);
+            border-radius: 50%;
+            animation: blob 10s infinite ease-in-out;
+        }
+
+        .container:after {
+            content: '';
+            position: absolute;
+            bottom: -50px;
+            right: -50px;
+            width: 200px;
+            height: 200px;
+            background-color: rgba(128, 0, 0, 0.4);
+            border-radius: 50%;
+            animation: blob 8s infinite ease-in-out alternate;
+        }
+
+        /* Contact Form Styling */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            color: #800000;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            font-size: 1.1rem;
+            background-color: rgba(129, 71, 71, 0.15);
+            color: #2a2121;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form input:focus, .contact-form textarea:focus {
+            background-color: rgba(79, 56, 56, 0.25);
+        }
+
+        .contact-form textarea {
+            resize: none;
+            height: 150px;
+        }
+
+        /* Submit Button */
+        .submit-btn {
+            padding: 15px;
+            background: linear-gradient(90deg, #F2C94C, #800000);
+            border: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: linear-gradient(90deg, #800000, #ba8e0b);
+            transform: scale(1.1);
+        }
+
+        /* Contact Info Styling */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            font-size: 1.2rem;
+        }
+
+        .contact-info i {
+            font-size: 1.5rem;
+            color: #F2C94C;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes blob {
+            0% {
+                transform: translate(0, 0);
+            }
+            50% {
+                transform: translate(30px, -30px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        /* Styling the navigation bar */
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #800000;
+            padding: 14px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            padding: 14px 20px;
+            text-align: center;
+        }
+
+        .navbar a:hover, .navbar a.active {
+            color: rgb(213, 182, 142);
+  background-color: rgba(72, 43, 10, 0.325);
+            border-radius: 5px;
+        }
+
+        /* Adding padding below the navbar */
+        .content {
+            padding: 80px 20px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #800000;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            margin-top: 60px;
+        }
+
+        footer p {
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="MAIN.html">Home</a>
+        <a href="map.html">Map</a>
+        <a href="facts.html">Facts</a>
+        <a href="shop.html">Shop</a>
+        <a href="aboutus.html">About Us</a>
+        <a class="active" href="contact.html">Contact</a>
+    </div>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <br><br>
+        <div class="container">
+            <h1>Contact Us</h1>
+    
+            <h3>We'd Love to Hear From You!</h3>
+            <p>
+                Whether you have a question, suggestion, or just want to get involved, feel free to drop us a message below. We're passionate about preserving
+                India's culture and traditions and are always open to new ideas and collaborations.
+            </p>
+<br>
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button class="submit-btn" type="submit">Send Message</button>
+            </form>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +91 1234 567 890</p>
+                <p><i class="fas fa-envelope"></i> contact@culturalheritageindia.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123, Culture Street, New Delhi, India</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 India's Cultural Heritage Hub | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
