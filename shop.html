@@ -6,19 +6,20 @@
     <meta name="description" content="Explore exclusive handicraft products with stunning visuals, great deals, and a seamless shopping experience.">
     <meta name="keywords" content="handicrafts, online store, traditional crafts, unique products, shopping">
     <title>Handicraft Market</title>
-    <link rel="stylesheet" href="style_shop.css">
+    <link rel="stylesheet" href="../static/css/style_shop.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="navbar">
-                <a href="MAIN.html">Home</a>
-                <a href="map.html">Map</a>
-                <a href="facts.html">Facts</a>
-                <a class="active" href="shop.html">Shop</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="contact.html">Contact</a>
-            </div>
+                <a href="{{ url_for('home') }}">Home</a>
+                <a href="{{ url_for('map_page') }}">Map</a>
+                <a href="{{ url_for('facts_page') }}">Facts</a>
+                <a class="active" href="{{ url_for('shop_page') }}">Shop</a>
+                <a href="{{ url_for('calendar_page')}}">Calendar</a>
+                <a href="{{ url_for('aboutus_page') }}">About Us</a>
+                <a href="{{ url_for('contact_page') }}">Contact</a>
+             </div>
         </nav>
         <div class="icons">
             <a href="#" class="search-icon" aria-label="Search">🔍</a>
@@ -32,7 +33,7 @@
         <!-- Video header with welcome text -->
         <div class="video-container">
             <video autoplay muted loop width=100% height=auto>
-                <source src="./additional%20photosvideo/vid.mp4" type="video/mp4">
+                <source src="../static/extra/vid.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -40,7 +41,7 @@
         <!-- Parallax scrolling content -->
         <div class="content">
             <div class="parallax" style="background-image: url('https://i.pinimg.com/564x/46/63/da/4663da72a154133a493820226f42dc08.jpg');">
-                <img src="./additional photosvideo/extra.png" alt="Parallax Image">
+                <img src="../static/extra/extra.png" alt="Parallax Image">
             </div>
 
         <!-- Search Bar Section -->
@@ -142,6 +143,6 @@
         <p>Contact us: email@example.com | +1234567890</p>
     </footer>
 
-    <script src="script_shop.js"></script>
+    <script src="../static/js/script_shop.js"></script>
 </body>
 </html>

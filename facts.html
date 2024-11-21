@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facts - Cultural Heritage Store</title>
-    <link rel="stylesheet" href="style_facts.css">
+    <link rel="stylesheet" href="../static/css/style_facts.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="navbar">
-                <a href="MAIN.html">Home</a>
-                <a href="map.html">Map</a>
-                <a class="active" href="facts.html">Facts</a>
-                <a href="shop.html">Shop</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="contact.html">Contact</a>
-            </div>
+                <a href="{{ url_for('home') }}">Home</a>
+                <a href="{{ url_for('map_page') }}">Map</a>
+                <a class="active" href="{{ url_for('facts_page') }}">Facts</a>
+                <a href="{{ url_for('shop_page') }}">Shop</a>
+                <a href="{{ url_for('calendar_page')}}">Calendar</a>
+                <a href="{{ url_for('aboutus_page') }}">About Us</a>
+                <a href="{{ url_for('contact_page') }}">Contact</a>
+             </div>
         </nav>
         <div class="icons">
             <a href="#" class="search-icon">🔍</a>
